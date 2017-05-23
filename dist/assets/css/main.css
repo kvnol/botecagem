@@ -389,6 +389,48 @@ template {
 [hidden] {
   display: none; }
 
+@font-face {
+  font-family: 'Helvetica Rounded LT Std';
+  font-weight: bold;
+  font-style: normal;
+  src: url("/assets/fonts/HelveticaRoundedLTStd-Bd.eot");
+  src: url("/assets/fonts/HelveticaRoundedLTStd-Bd.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HelveticaRoundedLTStd-Bd.woff2") format("woff2"), url("/assets/fonts/HelveticaRoundedLTStd-Bd.woff") format("woff"), url("/assets/fonts/HelveticaRoundedLTStd-Bd.ttf") format("truetype"), url("/assets/fonts/HelveticaRoundedLTStd-Bd.svg#HelveticaRoundedLTStd-Bd") format("svg"); }
+
+@font-face {
+  font-family: 'Helvetica Rounded LT Std';
+  font-weight: bold;
+  font-style: normal;
+  src: url("/assets/fonts/HelveticaRoundedLTStd-BdCn.eot");
+  src: url("/assets/fonts/HelveticaRoundedLTStd-BdCn.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HelveticaRoundedLTStd-BdCn.woff2") format("woff2"), url("/assets/fonts/HelveticaRoundedLTStd-BdCn.woff") format("woff"), url("/assets/fonts/HelveticaRoundedLTStd-BdCn.ttf") format("truetype"), url("/assets/fonts/HelveticaRoundedLTStd-BdCn.svg#HelveticaRoundedLTStd-BdCn") format("svg"); }
+
+@font-face {
+  font-family: 'Helvetica Rounded LT Std';
+  font-weight: bold;
+  font-style: italic;
+  src: url("/assets/fonts/HelveticaRoundedLTStd-BdO.eot");
+  src: url("/assets/fonts/HelveticaRoundedLTStd-BdO.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HelveticaRoundedLTStd-BdO.woff2") format("woff2"), url("/assets/fonts/HelveticaRoundedLTStd-BdO.woff") format("woff"), url("/assets/fonts/HelveticaRoundedLTStd-BdO.ttf") format("truetype"), url("/assets/fonts/HelveticaRoundedLTStd-BdO.svg#HelveticaRoundedLTStd-BdO") format("svg"); }
+
+@font-face {
+  font-family: 'Helvetica Rounded LT Std';
+  font-weight: 900;
+  font-style: italic;
+  src: url("/assets/fonts/HelveticaRoundedLTStd-BlkO.eot");
+  src: url("/assets/fonts/HelveticaRoundedLTStd-BlkO.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HelveticaRoundedLTStd-BlkO.woff2") format("woff2"), url("/assets/fonts/HelveticaRoundedLTStd-BlkO.woff") format("woff"), url("/assets/fonts/HelveticaRoundedLTStd-BlkO.ttf") format("truetype"), url("/assets/fonts/HelveticaRoundedLTStd-BlkO.svg#HelveticaRoundedLTStd-BlkO") format("svg"); }
+
+@font-face {
+  font-family: 'Helvetica Rounded LT Std';
+  font-weight: 900;
+  font-style: normal;
+  src: url("/assets/fonts/HelveticaRoundedLTStd-Black.eot");
+  src: url("/assets/fonts/HelveticaRoundedLTStd-Black.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HelveticaRoundedLTStd-Black.woff2") format("woff2"), url("/assets/fonts/HelveticaRoundedLTStd-Black.woff") format("woff"), url("/assets/fonts/HelveticaRoundedLTStd-Black.ttf") format("truetype"), url("/assets/fonts/HelveticaRoundedLTStd-Black.svg#HelveticaRoundedLTStd-Black") format("svg"); }
+
+@font-face {
+  font-family: 'Helvetica Rounded LT Std';
+  font-weight: bold;
+  font-style: italic;
+  src: url("/assets/fonts/HelveticaRoundedLTStd-BdCnO.eot");
+  src: url("/assets/fonts/HelveticaRoundedLTStd-BdCnO.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HelveticaRoundedLTStd-BdCnO.woff2") format("woff2"), url("/assets/fonts/HelveticaRoundedLTStd-BdCnO.woff") format("woff"), url("/assets/fonts/HelveticaRoundedLTStd-BdCnO.ttf") format("truetype"), url("/assets/fonts/HelveticaRoundedLTStd-BdCnO.svg#HelveticaRoundedLTStd-BdCnO") format("svg"); }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -397,7 +439,8 @@ template {
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Helvetica Rounded LT Std', sans-serif;
+  font-weight: bold;
   font-size: 16px; }
 
 body.home {
@@ -415,11 +458,12 @@ a {
 .header-menu_item {
   font-size: 1.9375rem;
   font-weight: 600;
-  color: #fff; }
+  color: #fff;
+  text-transform: uppercase; }
   .header-menu_item:not(:last-child) {
     margin-right: 5rem; }
   .header-menu_item:hover {
-    padding-top: .75rem;
+    padding-top: .7rem;
     border-top: 4px solid #d6b976;
     color: #d6b976; }
 
