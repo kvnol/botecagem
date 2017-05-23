@@ -5,7 +5,10 @@ const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 
 const files = {
-  css: ['src/assets/sass/main.sass'],
+  css: [
+    'node_modules/normalize.css/normalize.css',
+    'src/assets/sass/main.sass'
+  ],
   js: ['src/assets/js/**/*.js']
 };
 
