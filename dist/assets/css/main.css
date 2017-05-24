@@ -397,7 +397,7 @@ template {
   src: url("/assets/fonts/HelveticaRoundedLTStd-Bd.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HelveticaRoundedLTStd-Bd.woff2") format("woff2"), url("/assets/fonts/HelveticaRoundedLTStd-Bd.woff") format("woff"), url("/assets/fonts/HelveticaRoundedLTStd-Bd.ttf") format("truetype"), url("/assets/fonts/HelveticaRoundedLTStd-Bd.svg#HelveticaRoundedLTStd-Bd") format("svg"); }
 
 @font-face {
-  font-family: 'Helvetica Rounded LT Std';
+  font-family: 'Helvetica Rounded LT Std Condensed';
   font-weight: bold;
   font-style: normal;
   src: url("/assets/fonts/HelveticaRoundedLTStd-BdCn.eot");
@@ -431,6 +431,13 @@ template {
   src: url("/assets/fonts/HelveticaRoundedLTStd-BdCnO.eot");
   src: url("/assets/fonts/HelveticaRoundedLTStd-BdCnO.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/HelveticaRoundedLTStd-BdCnO.woff2") format("woff2"), url("/assets/fonts/HelveticaRoundedLTStd-BdCnO.woff") format("woff"), url("/assets/fonts/HelveticaRoundedLTStd-BdCnO.ttf") format("truetype"), url("/assets/fonts/HelveticaRoundedLTStd-BdCnO.svg#HelveticaRoundedLTStd-BdCnO") format("svg"); }
 
+@font-face {
+  font-family: 'iCiel Brush Up';
+  font-weight: 500;
+  font-style: normal;
+  src: url("/assets/fonts/iCielBrushUp.eot");
+  src: url("/assets/fonts/iCielBrushUp.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/iCielBrushUp.woff2") format("woff2"), url("/assets/fonts/iCielBrushUp.woff") format("woff"), url("/assets/fonts/iCielBrushUp.ttf") format("truetype"), url("/assets/fonts/iCielBrushUp.svg#iCielBrushUp") format("svg"); }
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -445,6 +452,7 @@ body {
   font-family: 'Helvetica Rounded LT Std', sans-serif;
   font-weight: bold;
   font-size: 16px;
+  background-attachment: fixed;
   background-image: url(/assets/img/bg-pages.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -456,10 +464,16 @@ body.home {
 a {
   text-decoration: none; }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3.125rem 0; }
+
 .header-menu {
   text-align: center; }
 
 .header-menu_item {
+  font-family: 'Helvetica Rounded LT Std Condensed', sans-serif;
   font-size: 1.9375rem;
   font-weight: 600;
   color: #fff;
@@ -479,9 +493,42 @@ a {
     border-color: #caa54f;
     color: #caa54f; }
 
+.main {
+  width: 66.5625rem;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7); }
+
 .header {
   width: 100%;
   margin-top: 1.875rem;
   padding: .75rem 0;
   border-top: 4px solid #fff;
-  background-color: rgba(27, 27, 34, 0.85); }
+  background-color: rgba(0, 0, 0, 0.85); }
+
+.about {
+  color: #fff; }
+
+.about-esquenta {
+  margin-bottom: 5rem; }
+
+.about-title {
+  margin: 0;
+  font-family: 'iCiel Brush Up', sans-serif;
+  font-size: 4.2rem;
+  font-weight: 500; }
+  .about-title img {
+    margin-left: 1.6rem;
+    vertical-align: middle; }
+
+.about-text {
+  font-size: .975rem; }
+
+.about-gallery_image:not(:last-child) {
+  margin-right: .625rem; }
+
+.about-info_image {
+  float: left;
+  margin-right: .9375rem; }
+
+.about-info_text {
+  line-height: 1.25rem; }
