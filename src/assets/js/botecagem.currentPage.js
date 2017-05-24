@@ -2,10 +2,11 @@
   'use strict';
 
   function currentPage() {
-    var pageAttribute = document.querySelector('.header-menu_item').getAttribute('href'); 
-    var menuItem = document.querySelector('.header-menu_item'); 
-    if (window.location.pathname === pageAttribute) {
-      menuItem.classList.add('header-menu_item--current');
+    var menuItem = document.querySelectorAll('.header-menu_item'); 
+    for(var i = 0; i < menuItem.length; i++) {
+      if (window.location.pathname === menuItem[i].getAttribute('href')) {
+        menuItem[i].classList.add('header-menu_item--current');
+      }
     }
   }
   currentPage();
