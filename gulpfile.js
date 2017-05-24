@@ -9,7 +9,7 @@ const files = {
     'node_modules/normalize.css/normalize.css',
     'src/assets/sass/main.sass'
   ],
-  js: ['src/assets/js/**/*.js']
+  js: ['src/assets/js/*']
 };
 
 gulp.task('views', function() {

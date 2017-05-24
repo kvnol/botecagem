@@ -436,18 +436,22 @@ template {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+html {
+  height: 100%; }
+
 body {
   margin: 0;
   padding: 0;
   font-family: 'Helvetica Rounded LT Std', sans-serif;
   font-weight: bold;
-  font-size: 16px; }
-
-body.home {
-  background-image: url(/assets/img/bg-home.jpg);
+  font-size: 16px;
+  background-image: url(/assets/img/bg-pages.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+body.home {
+  background-image: url(/assets/img/bg-home.jpg); }
 
 a {
   text-decoration: none; }
@@ -466,6 +470,14 @@ a {
     padding-top: .7rem;
     border-top: 4px solid #d6b976;
     color: #d6b976; }
+
+.header-menu_item--current {
+  padding-top: .7rem;
+  border-top: 4px solid #d6b976;
+  color: #d6b976; }
+  .header-menu_item--current:hover {
+    border-color: #caa54f;
+    color: #caa54f; }
 
 .header {
   width: 100%;

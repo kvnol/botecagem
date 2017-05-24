@@ -1,0 +1,1 @@
+!function(e,t){"use strict";!function(){var e=document.querySelector(".header-menu_item").getAttribute("href"),t=document.querySelector(".header-menu_item");window.location.pathname===e&&t.classList.add("header-menu_item--current")}()}(window,document);
