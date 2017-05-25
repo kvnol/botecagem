@@ -469,6 +469,11 @@ a {
   margin: 0 auto;
   padding: 3.125rem 0; }
 
+.title {
+  margin: 0;
+  font-family: 'iCiel Brush Up', sans-serif;
+  font-weight: 500; }
+
 .header-menu {
   text-align: center; }
 
@@ -512,10 +517,7 @@ a {
   margin-bottom: 5rem; }
 
 .about-title {
-  margin: 0;
-  font-family: 'iCiel Brush Up', sans-serif;
-  font-size: 4.2rem;
-  font-weight: 500; }
+  font-size: 4.2rem; }
   .about-title img {
     margin-left: 1.6rem;
     vertical-align: middle; }
@@ -532,3 +534,14 @@ a {
 
 .about-info_text {
   line-height: 1.25rem; }
+
+.bares-header {
+  color: #fff;
+  text-align: center; }
+
+.bares-title {
+  font-size: 6.125rem; }
+
+.bares-subtitle {
+  margin: 0;
+  font-size: 1.4375rem; }
