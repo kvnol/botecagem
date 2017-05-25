@@ -452,6 +452,7 @@ body {
   font-family: 'Helvetica Rounded LT Std', sans-serif;
   font-weight: bold;
   font-size: 16px;
+  color: #fff;
   background-attachment: fixed;
   background-image: url(/assets/img/bg-pages.jpg);
   background-position: center center;
@@ -510,9 +511,6 @@ a {
   border-top: 4px solid #fff;
   background-color: rgba(0, 0, 0, 0.85); }
 
-.about {
-  color: #fff; }
-
 .about-esquenta {
   margin-bottom: 5rem; }
 
@@ -536,7 +534,6 @@ a {
   line-height: 1.25rem; }
 
 .bares-header {
-  color: #fff;
   text-align: center; }
 
 .bares-title {
@@ -545,3 +542,29 @@ a {
 .bares-subtitle {
   margin: 0;
   font-size: 1.4375rem; }
+
+.saibaMais-antarctica_image {
+  float: left;
+  margin-right: 1.5625rem; }
+
+.saibaMais-serramalte_image {
+  float: right;
+  margin-left: 1.5625rem; }
+
+.saibaMais-antarctica_title,
+.saibaMais-serramalte_title,
+.evento2016_title {
+  font-size: 2.625rem; }
+
+.saibaMais-antarctica_content {
+  margin-left: 5.575rem; }
+
+.saibaMais-serramalte_content {
+  text-align: right; }
+
+.evento2016_subtitle {
+  font-size: 1rem;
+  text-transform: uppercase; }
+
+.evento2016_image:not(:last-child) {
+  margin-right: .625rem; }
