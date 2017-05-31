@@ -461,7 +461,7 @@ body {
 
 body.home {
   background-image: url(/assets/img/bg-home.jpg);
-  background-position: center center; }
+  background-position: center bottom; }
 
 a {
   text-decoration: none; }
@@ -587,9 +587,8 @@ a {
 .bares-item_image {
   position: relative;
   margin: 0;
-  width: 20rem; }
-  .bares-item_image:hover > .bares-item_caption {
-    display: block; }
+  width: 20rem;
+  height: 10.8125rem; }
   .bares-item_image img {
     display: block;
     width: 100%; }
@@ -601,24 +600,26 @@ a {
   bottom: 0;
   left: 0;
   height: 10.8125rem;
-  display: none;
   background-color: rgba(0, 0, 0, 0.6); }
 
-.bares-item_footer p {
-  margin: 0;
-  font-size: .8rem; }
+.bares-item_footer {
+  padding: 8.5rem .625rem 0; }
+  .bares-item_footer p {
+    margin: 0;
+    font-size: .8rem; }
 
 .bares-item_footer_info,
 .bares-item_social {
   display: inline-block;
-  width: 50%;
   vertical-align: middle; }
 
 .bares-item_footer_info {
-  float: left; }
+  float: left;
+  width: 14.0625rem; }
 
 .bares-item_social {
   float: right;
+  width: 3.75rem;
   text-align: right; }
 
 .bares-item_social a {
