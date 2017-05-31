@@ -42,6 +42,7 @@
   function removeCity() {
     var itemValue = this.options[this.selectedIndex].value;
     var itemState = doc.querySelector('[data-estado="' + itemValue + '"]');
+    var itemStateValue = itemState.attributes[0].value;
 
     if (itemValue === 'estados' || itemValue === 'cidades') {
       Array.prototype.forEach.call(this.nextSibling.options, function(item, index) {
@@ -49,7 +50,7 @@
       });
     }
 
-    if (itemState.attributes[0].value === itemValue) {
+    if (itemStateValue === itemValue) {
       Array.prototype.forEach.call(this.nextSibling.options, function(item, index) {
         item.style.display = 'none';
       });
@@ -60,8 +61,9 @@
   function removeDistrict() {
     var itemValue = this.options[this.selectedIndex].value;
     var itemState = doc.querySelector('[data-cidade="' + itemValue + '"]');
+    var itemStateValue = itemState.attributes[0].value;
 
-    if (itemValue === 'estados' || itemValue === 'cidades') {
+    if (itemStateValue === 'estados' || itemValue === 'cidades') {
       Array.prototype.forEach.call(this.nextSibling.options, function(item, index) {
         item.style.display = 'block';
       });
