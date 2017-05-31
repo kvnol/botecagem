@@ -16,4 +16,308 @@ html(lang='pt-br')
             h1.title.bares-title Bares
             h2.bares-subtitle Conheça os bares participantes do Esquenta Botecagem:
 
+          .bares-filters
+            select.select.bares-filters_select(data-id='estado')
+              option(value='estados') - Estado
+              option(value='ba') Bahia
+              option(value='ce') Ceará
+              option(value='mg') Minas Gerais
+              option(value='pr') Paraná
+              option(value='pe') Pernambuco
+              option(value='rj') Rio de Janeiro
+              option(value='sp') São Paulo
+
+            select.select.bares-filters_select(disabled data-id='cidades')
+              option(data-estado='' value='cidades') - Cidade
+              option(data-estado='mg' value='belo-horizonte') Belo Horizonte
+              option(data-estado='pr' value='curitiba') Curitiba
+              option(data-estado='ce' value='fortaleza') Fortaleza
+              option(data-estado='pe' value='recife') Recife
+              option(data-estado='pe' value='olinda') Olinda
+              option(data-estado='sp' value='ribeirao-preto') Ribeirão Preto
+              option(data-estado='ba' value='salvador') Salvador
+
+
+            select.select.bares-filters_select(disabled data-id='regioes')
+              option(data-cidade='' value='regioes') - Bairro
+              option(data-cidade='ribeirao-preto' value='Centro') Centro
+              option(data-cidade='recife' value='boa-viagem') Boa Viagem
+              option(data-cidade='recife' value='espinheiro') Espinheiro
+              option(data-cidade='recife' value='tamarineira') Tamarineira
+              option(data-cidade='olinda' value='bairro-novo') Bairro Novo
+              option(data-cidade='salvador' value='rio-vermelho') Rio Vermelho
+              option(data-cidade='belo-horizonte' value='savassi') Savassi
+              option(data-cidade='belo-horizonte' value='sion') Sion
+              option(data-cidade='belo-horizonte' value='lourdes') Lourdes
+              option(data-cidade='belo-horizonte' value='sao-francisco') São Francisco
+              option(data-cidade='belo-horizonte' value='padre-eustaquio') Padre Eustáquio
+              option(data-cidade='fortaleza' value='varjota') Varjota
+              option(data-cidade='fortaleza' value='parquelandia') Parquelândia
+              option(data-cidade='fortaleza' value='aldeota') Aldeota
+              option(data-cidade='fortaleza' value='cambeba') Cambeba
+              option(data-cidade='fortaleza' value='meireles') Meireles
+              option(data-cidade='curitiba' value='agua-verde') Água Verde
+              option(data-cidade='curitiba' value='boqueirao') Boqueirão
+              option(data-cidade='curitiba' value='alto-da-xv') Alto da XV
+              option(data-cidade='curitiba' value='centro') Centro
+
+          .bares-content
+            ul.bares-list
+              li.bares-item.sp.ribeirao-preto
+                h3.title.bares-item_title Bar do Sócio
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/sp_ribeirao-preto_bar-do-socio.jpg')
+                  figcaption.bares-item_caption
+                    p Ribeirão Preto, SP
+                    p R. Carvalheira Torquato Rizzi, 1336
+
+              li.bares-item.sp.ribeirao-preto
+                h3.title.bares-item_title Chocolate com Pimenta
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/sp_ribeirao-preto_chocolate-com-pimenta.jpg')
+                  figcaption.bares-item_caption
+                    p Ribeirão Preto, SP
+                    p R. Alagoas, 222
+
+              li.bares-item.sp.ribeirao-preto
+                h3.title.bares-item_title Arpoador Gastronomia e Lazer
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/sp_ribeirao-preto_arpoador-gastronomia-e-lazer.jpg')
+                  figcaption.bares-item_caption
+                    p Ribeirão Preto, SP
+                    p Praça Rotary Club, 105
+
+              li.bares-item.sp.ribeirao-preto
+                h3.title.bares-item_title Tecoara Bar Gourmet
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/sp_ribeirao-preto_tecoara-bar-gourmet.jpg')
+                  figcaption.bares-item_caption
+                    p Ribeirão Preto, SP
+                    p R. Arthur Bernardes, 20
+
+              li.bares-item.sp.ribeirao-preto.centro
+                h3.title.bares-item_title Jockey Club
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/sp_ribeirao-preto_jockey-club.jpg')
+                  figcaption.bares-item_caption
+                    p Ribeirão Preto, SP
+                    p R. Marcondes Salgado, 617
+
+              li.bares-item.pe.recife.boa-viagem
+                h3.title.bares-item_title Reunião Bar e Restaurante
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/pe_recife_reuniao-bar.jpg')
+                  figcaption.bares-item_caption
+                    p Recife, PE
+                    p R. Dr. Gaspar Regueira Costa, 57
+
+              li.bares-item.pe.recife.espinheiro
+                h3.title.bares-item_title Empório Sertanejo
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/pe_recife_emporio-sertanejo.jpeg')
+                  figcaption.bares-item_caption
+                    p Recife, PE
+                    p R. da Hora, 34
+
+              li.bares-item.pe.recife.tamarineira
+                h3.title.bares-item_title Bar do Moraes
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/pe_recife_moraes.jpeg')
+                  figcaption.bares-item_caption
+                    p Recife, PE
+                    p R. Padre Roma, 430
+
+              li.bares-item.pe.olinda.bairro-novo
+                h3.title.bares-item_title Bode do Nô
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/pe_recife_bode-do-nono.png')
+                  figcaption.bares-item_caption
+                    p Olinda, PE
+                    p Av. Min. Marcos Freire, 407
+
+              li.bares-item.pe.recife.boa-viagem
+                h3.title.bares-item_title Caldíssimo Grill Bar e Restaurante
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/pe_recife_caldissimo.jpg')
+                  figcaption.bares-item_caption
+                    p Recife, PE
+                    p R. Visc. de Jequitinhonha, 2237
+
+              li.bares-item.ba.salvador.rio-vermelho
+                h3.title.bares-item_title Cabral 500
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/ba_salvador_cabral-500.jpg')
+                  figcaption.bares-item_caption
+                    p Salvador, BA
+                    p Largo da Mariquita, 10
+
+              li.bares-item.ba.salvador.rio-vermelho
+                h3.title.bares-item_title Postudo
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/ba_salvador_postudo.jpg')
+                  figcaption.bares-item_caption
+                    p Salvador, BA
+                    p R. João Gomes, 87
+
+              li.bares-item.ba.salvador.rio-vermelho
+                h3.title.bares-item_title Boteco do França
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/ba_salvador_boteco-do-franca.jpg')
+                  figcaption.bares-item_caption
+                    p Salvador, BA
+                    p R. Borges dos Réis, 24
+
+              li.bares-item.ba.salvador.rio-vermelho
+                h3.title.bares-item_title Santa Maria
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/ba_salvador_santa-maria.jpg')
+                  figcaption.bares-item_caption
+                    p Salvador, BA
+                    p Largo de Santana, S/N
+
+              li.bares-item.mg.belo-horizonte.savassi
+                h3.title.bares-item_title Baiana do Acarajé
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/mg_bh_baiana-do-acarajé.jpg')
+                  figcaption.bares-item_caption
+                    p Belo Horizonte, MG
+                    p R. Antônio de Albuquerque, 440
+
+              li.bares-item.mg.belo-horizonte.sion
+                h3.title.bares-item_title Bar do Antônio
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/mg_bh_bar-do-antonio.jpg')
+                  figcaption.bares-item_caption
+                    p Belo Horizonte, MG
+                    p R. Flórida, 15
+
+              li.bares-item.mg.belo-horizonte.lourdes
+                h3.title.bares-item_title Boi Lourdes
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/mg_bh_boi-lourdes.jpg')
+                  figcaption.bares-item_caption
+                    p Belo Horizonte, MG
+                    p R. Curitiba, 2069
+
+              li.bares-item.mg.belo-horizonte.lourdes
+                h3.title.bares-item_title Butequim Gonzaga
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/mg_bh_gonzaga-bartiquim.jpg')
+                  figcaption.bares-item_caption
+                    p Belo Horizonte, MG
+                    p R. Tomás Gonzaga, 578
+
+              li.bares-item.mg.belo-horizonte.sao-francisco
+                h3.title.bares-item_title Maria das Tranças
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/mg_bh_maria-das-trancas.jpg')
+                  figcaption.bares-item_caption
+                    p Belo Horizonte, MG
+                    p R. Estoril, 938
+
+              li.bares-item.mg.belo-horizonte.lourdes
+                h3.title.bares-item_title Armazém Medeiros
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/mg_bh_armazem-medeiros.jpg')
+                  figcaption.bares-item_caption
+                    p Belo Horizonte, MG
+                    p R. Rio de Janeiro, 2221
+
+              li.bares-item.mg.belo-horizonte.savassi
+                h3.title.bares-item_title Point Baiano
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/mg_bh_point-baiano.jpg')
+                  figcaption.bares-item_caption
+                    p Belo Horizonte, MG
+                    p R. Antônio de Albuquerque, 473
+
+              li.bares-item.mg.belo-horizonte.padre-eustaquio
+                h3.title.bares-item_title Tradição do Churrasco
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/mg_bh_tradicao-do-churrasco.jpg')
+                  figcaption.bares-item_caption
+                    p Belo Horizonte, MG
+                    p R. Padre Eustáquio, 2705
+
+              li.bares-item.ce.fortaleza.varjota
+                h3.title.bares-item_title Bar do Cebolinha
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/ce_fortaleza_cebolinha.jpeg')
+                  figcaption.bares-item_caption
+                    p Fortaleza, CE
+                    p Rua Silva Jatahy, 1404
+
+              li.bares-item.ce.fortaleza.parquelandia
+                h3.title.bares-item_title Alenca's Bar
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/ce_fortaleza_alencas.jpeg')
+                  figcaption.bares-item_caption
+                    p Fortaleza, CE
+                    p R. Gustavo Sampaio, 692
+
+              li.bares-item.ce.fortaleza.aldeota
+                h3.title.bares-item_title Picanha do Cowboy
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/ce_fortaleza_picanha-do-cowboy.jpg')
+                  figcaption.bares-item_caption
+                    p Fortaleza, CE
+                    p Av. Dom Luís, 685
+
+              li.bares-item.ce.fortaleza.cambeba
+                h3.title.bares-item_title Bangs
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/ce_fortaleza_bangs.jpg')
+                  figcaption.bares-item_caption
+                    p Fortaleza, CE
+                    p R. Crisanto Moreira da Rocha, 1230
+
+              li.bares-item.ce.fortaleza.meireles
+                h3.title.bares-item_title Boteco Praia
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/ce_fortaleza_boteco-praia.jpg')
+                  figcaption.bares-item_caption
+                    p Fortaleza, CE
+                    p Av. Beira Mar, 1680
+
+              li.bares-item.pr.curitiba.agua-verde
+                h3.title.bares-item_title Jabuti
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/pr_curitiba_jabuti.jpg')
+                  figcaption.bares-item_caption
+                    p Curitiba, PR
+                    p Professor Assis Gonçalves, 1506
+
+              li.bares-item.pr.curitiba.agua-verde
+                h3.title.bares-item_title Confraria Água Verde
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/pr_curitiba_confraria-agua-verde.jpg')
+                  figcaption.bares-item_caption
+                    p Curitiba, PR
+                    p Santa Catarina, 1155
+
+              li.bares-item.pr.curitiba.boqueirao
+                h3.title.bares-item_title Mercearia 2840
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/pr_curitiba_mercearia-2840.jpg')
+                  figcaption.bares-item_caption
+                    p Curitiba, PR
+                    p Waldemar Loureiro de Campos, 2840
+
+              li.bares-item.pr.curitiba.alto-da-xv
+                h3.title.bares-item_title Canabenta
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/pr_curitiba_canabenta.jpg')
+                  figcaption.bares-item_caption
+                    p Curitiba, PR
+                    p Itupava, 1431
+
+              li.bares-item.pr.curitiba.centro
+                h3.title.bares-item_title Bar Baran
+                figure.bares-item_image
+                  img(src='assets/img/petiscos/pr_curitiba_bar-baran.jpg')
+                  figcaption.bares-item_caption
+                    p Curitiba, PR
+                    p Al.Augusto Stellfeld,799
+
+
     script(src='/assets/js/main.js')

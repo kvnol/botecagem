@@ -466,9 +466,9 @@ a {
   text-decoration: none; }
 
 .container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
-  padding: 3.125rem 0; }
+  padding: 3.125rem 1.75rem; }
 
 .title {
   margin: 0;
@@ -542,6 +542,69 @@ a {
 .bares-subtitle {
   margin: 0;
   font-size: 1.4375rem; }
+
+.bares-filters {
+  margin: 2rem auto;
+  text-align: center; }
+
+.bares-filters_select {
+  -webkit-appearance: none;
+  width: 25%;
+  margin: 0 .9375rem;
+  padding: .625rem .9375rem;
+  border: 0;
+  border-bottom: .125rem solid;
+  font-family: 'Helvetica Rounded LT Std', sans-serif;
+  font-size: 1.5rem;
+  color: #fff;
+  background: none; }
+  .bares-filters_select[disabled] {
+    opacity: .5; }
+  .bares-filters_select option {
+    color: initial; }
+
+.bares-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.bares-item {
+  width: 25%;
+  display: inline-block;
+  margin-bottom: .9375rem; }
+
+.bares-item--hidden {
+  display: none; }
+
+.bares-item_title {
+  display: block;
+  padding: .625rem;
+  width: 15rem;
+  font-size: 1.1rem;
+  background-color: #000; }
+
+.bares-item_image {
+  position: relative;
+  margin: 0;
+  width: 15rem;
+  height: 8.125rem; }
+  .bares-item_image:hover > .bares-item_caption {
+    display: block; }
+  .bares-item_image img {
+    display: block; }
+
+.bares-item_caption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5.9375rem .3125rem 0;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.6); }
+  .bares-item_caption p {
+    margin: 0;
+    font-size: .8rem; }
 
 .saibaMais-antarctica_image {
   float: left;

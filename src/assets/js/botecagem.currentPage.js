@@ -3,11 +3,10 @@
 
   function currentPage() {
     var menuItem = document.querySelectorAll('.header-menu_item'); 
-    for(var i = 0; i < menuItem.length; i++) {
-      if (window.location.pathname === menuItem[i].getAttribute('href')) {
-        menuItem[i].classList.add('header-menu_item--current');
-      }
-    }
+    Array.prototype.forEach.call(menuItem, function(item, index) {
+      if (win.location.pathname === item.getAttribute('href'))
+        return item.classList.add('header-menu_item--current');
+    });
   }
   currentPage();
 })(window, document);
