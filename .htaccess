@@ -3,6 +3,3 @@ RewriteCond %{HTTP_HOST} ^botecagem.herokuapp.com$ [NC,OR]
 RewriteCond %{HTTP_HOST} ^www.botecagem.herokuapp.com$
 RewriteCond %{REQUEST_URI} !dist/
 RewriteRule (.*) /dist/$1 [L]
-
-RewriteRule ^(.+)\.jpeg$ /$1.jpg [L,NC,R=301]
-RewriteRule ^(.+)\.JPG$ /$1.jpg [L,NC,R=301]
