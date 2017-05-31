@@ -455,12 +455,13 @@ body {
   color: #fff;
   background-attachment: fixed;
   background-image: url(/assets/img/bg-pages.jpg);
-  background-position: center -6.25rem;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
 
 body.home {
-  background-image: url(/assets/img/bg-home.jpg); }
+  background-image: url(/assets/img/bg-home.jpg);
+  background-position: center -6.25rem; }
 
 a {
   text-decoration: none; }
@@ -605,6 +606,27 @@ a {
   .bares-item_caption p {
     margin: 0;
     font-size: .8rem; }
+
+.fotos-header {
+  text-align: center; }
+
+.fotos-title {
+  font-size: 6.125rem; }
+
+.fotos-subtitle {
+  margin: 0;
+  font-size: 1.4375rem; }
+
+.fotos-gallery_row {
+  text-align: center; }
+
+.fotos-gallery_col {
+  display: inline-block;
+  margin: 0 .9375rem; }
+
+.fotos-gallery_item {
+  display: block;
+  margin: 1.875rem auto; }
 
 .saibaMais-antarctica_image {
   float: left;
