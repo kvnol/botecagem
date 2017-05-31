@@ -37,7 +37,7 @@
   list-style: none
 
 .bares-item
-  width: 25%
+  width: 33.333%
   display: inline-block
   margin-bottom: .9375rem
 
@@ -47,21 +47,21 @@
 .bares-item_title
   display: block
   padding: .625rem
-  width: 15rem
+  width: 20rem
   font-size: 1.1rem
   background-color: #000
 
 .bares-item_image
   position: relative
   margin: 0
-  width: 15rem
-  height: 8.125rem
+  width: 20rem
 
   &:hover > .bares-item_caption
     display: block
 
   img
     display: block
+    width: 100%
 
 .bares-item_caption
   position: absolute
@@ -69,10 +69,36 @@
   right: 0
   bottom: 0
   left: 0
-  padding: 5.9375rem .3125rem 0
+  height: 10.8125rem
   display: none
   background-color: rgba(0,0,0,.6)
 
+.bares-item_footer
   p
     margin: 0
     font-size: .8rem
+
+.bares-item_footer_info,
+.bares-item_social
+  display: inline-block
+  width: 50%
+  vertical-align: middle
+
+.bares-item_footer_info
+  float: left
+
+.bares-item_social
+  float: right
+  text-align: right
+
+.bares-item_social a
+  display: inline-block
+  width: 24px
+  height: 24px
+
+  &:not(:last-child)
+    margin-right: .5rem
+  
+  img
+    display: block
+    width: 100% 

@@ -461,7 +461,7 @@ body {
 
 body.home {
   background-image: url(/assets/img/bg-home.jpg);
-  background-position: center -6.25rem; }
+  background-position: center center; }
 
 a {
   text-decoration: none; }
@@ -570,7 +570,7 @@ a {
   list-style: none; }
 
 .bares-item {
-  width: 25%;
+  width: 33.333%;
   display: inline-block;
   margin-bottom: .9375rem; }
 
@@ -580,19 +580,19 @@ a {
 .bares-item_title {
   display: block;
   padding: .625rem;
-  width: 15rem;
+  width: 20rem;
   font-size: 1.1rem;
   background-color: #000; }
 
 .bares-item_image {
   position: relative;
   margin: 0;
-  width: 15rem;
-  height: 8.125rem; }
+  width: 20rem; }
   .bares-item_image:hover > .bares-item_caption {
     display: block; }
   .bares-item_image img {
-    display: block; }
+    display: block;
+    width: 100%; }
 
 .bares-item_caption {
   position: absolute;
@@ -600,12 +600,36 @@ a {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 5.9375rem .3125rem 0;
+  height: 10.8125rem;
   display: none;
   background-color: rgba(0, 0, 0, 0.6); }
-  .bares-item_caption p {
-    margin: 0;
-    font-size: .8rem; }
+
+.bares-item_footer p {
+  margin: 0;
+  font-size: .8rem; }
+
+.bares-item_footer_info,
+.bares-item_social {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle; }
+
+.bares-item_footer_info {
+  float: left; }
+
+.bares-item_social {
+  float: right;
+  text-align: right; }
+
+.bares-item_social a {
+  display: inline-block;
+  width: 24px;
+  height: 24px; }
+  .bares-item_social a:not(:last-child) {
+    margin-right: .5rem; }
+  .bares-item_social a img {
+    display: block;
+    width: 100%; }
 
 .fotos-header {
   text-align: center; }

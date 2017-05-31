@@ -1,5 +1,5 @@
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^botecagem.herokuapp.com$ [NC,OR]
-RewriteCond %{HTTP_HOST} ^www.botecagem.herokuapp.com$
+RewriteCond %{HTTP_HOST} ^festivalbotecagem.com.br$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.festivalbotecagem.com.br$
 RewriteCond %{REQUEST_URI} !dist/
 RewriteRule (.*) /dist/$1 [L]
