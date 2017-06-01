@@ -609,15 +609,16 @@ a {
 
 .bares-item_article {
   position: absolute;
+  width: 100%;
   height: 10.8125rem;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.8);
   -webkit-transform: translateY(10.8125rem);
   -moz-transform: translateY(10.8125rem);
   transform: translateY(10.8125rem);
-  -webkit-transition: .2s all ease;
-  -moz-transition: .2s all ease;
-  transition: .2s all ease; }
+  -webkit-transition: .3s all ease;
+  -moz-transition: .3s all ease;
+  transition: .3s all ease; }
 
 .bares-item_article-title {
   margin-top: 1.3rem;
