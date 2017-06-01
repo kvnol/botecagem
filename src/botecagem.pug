@@ -6,6 +6,13 @@ html(lang='pt-br')
     meta(name='description', content='')
     link(href='/assets/css/main.css', rel='stylesheet')
 
+    script.
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TM7D5J9');
+
   body.botecagem
     include includes/header
 
@@ -33,3 +40,5 @@ html(lang='pt-br')
               p.about-info_text Botecagem SP<br> Endereço: Estacionamento do Shopping Villa Lobos<br> Av. das Nações Unidas, 4777 Horário: 12h às 22h<br> Entrada: gratuita, mediante nome na lista pelo email botecagem@haute.com.br<br> Informações: (11) 3063-3242
 
     script(src='/assets/js/main.js')
+    noscript
+      iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-TM7D5J9', height='0', width='0', style='display:none;visibility:hidden')
