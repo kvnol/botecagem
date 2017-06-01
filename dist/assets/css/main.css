@@ -461,7 +461,7 @@ body {
 
 body.home {
   background-image: url(/assets/img/bg-home.jpg);
-  background-position: center bottom; }
+  background-position: center center; }
 
 a {
   text-decoration: none; }
@@ -507,7 +507,7 @@ a {
 
 .header {
   width: 100%;
-  margin-top: 1.875rem;
+  margin-top: 1rem;
   padding: .75rem 0;
   border-top: 4px solid #fff;
   background-color: rgba(0, 0, 0, 0.85); }
