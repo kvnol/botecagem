@@ -599,10 +599,35 @@ a {
   right: 0;
   bottom: 0;
   left: 0;
+  overflow: hidden;
   height: 10.8125rem;
   background-color: rgba(0, 0, 0, 0.6); }
+  .bares-item_caption:hover > .bares-item_article {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    transform: translateY(0); }
+
+.bares-item_article {
+  position: absolute;
+  height: 10.8125rem;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transform: translateY(10.8125rem);
+  -moz-transform: translateY(10.8125rem);
+  transform: translateY(10.8125rem);
+  -webkit-transition: .2s all ease;
+  -moz-transition: .2s all ease;
+  transition: .2s all ease; }
+
+.bares-item_article-title {
+  margin-top: 1.3rem;
+  font-size: 1.6rem; }
+
+.bares-item_article-text {
+  font-size: .8rem; }
 
 .bares-item_footer {
+  position: relative;
   padding: 8.5rem .625rem 0; }
   .bares-item_footer p {
     margin: 0;
