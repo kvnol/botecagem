@@ -34,6 +34,7 @@ html(lang='pt-br')
               option(value='pr') Paraná
               option(value='pe') Pernambuco
               option(value='rj') Rio de Janeiro
+              option(value='sp') Santa Catarina
               option(value='sp') São Paulo
 
             select.select.bares-filters_select(disabled data-id='cidades')
@@ -46,11 +47,27 @@ html(lang='pt-br')
               option(data-estado='pe' value='olinda') Olinda
               option(data-estado='sp' value='ribeirao-preto') Ribeirão Preto
               option(data-estado='ba' value='salvador') Salvador
+              option(data-estado='sp' value='sao-paulo') São Paulo
+              option(data-estado='sp' value='santo-andre') Santo André
+              option(data-estado='sc' value='floripa') Florianópolis
+              option(data-estado='rj' value='rio-de-janeiro') Rio de Janeiro
+              option(data-estado='rs' value='porto-alegre') Porto Alegre
 
 
             select.select.bares-filters_select(disabled data-id='regioes')
               option(value='regioes') - Bairro
               option(data-cidade='ribeirao-preto' value='Centro') Centro
+              option(data-cidade='ribeirao-preto' value='jd-sao-luiz') Jardim São Luiz
+              option(data-cidade='ribeirao-preto' value='campos-elisios') Campos Elísios
+              option(data-cidade='ribeirao-preto' value='city-ribeirao') City Ribeirão
+              option(data-cidade='ribeirao-preto' value='jd-sumare') Jardim Sumaré
+              option(data-cidade='sao-paulo' value='itaim-bibi') Itaim Bibi
+              option(data-cidade='sao-paulo' value='campo-belo') Campo Belo
+              option(data-cidade='sao-paulo' value='vila-isolina-mazzei') Vila Isolina Mazzei
+              option(data-cidade='sao-paulo' value='tatuape') Tatuapé
+              option(data-cidade='sao-paulo' value='Santana') Santana
+              option(data-cidade='sao-paulo' value='moema') Moema
+              option(data-cidade='sao-paulo' value='vila-mariana') Vila Mariana
               option(data-cidade='recife' value='boa-viagem') Boa Viagem
               option(data-cidade='recife' value='espinheiro') Espinheiro
               option(data-cidade='recife' value='tamarineira') Tamarineira
@@ -70,10 +87,30 @@ html(lang='pt-br')
               option(data-cidade='curitiba' value='boqueirao') Boqueirão
               option(data-cidade='curitiba' value='alto-da-xv') Alto da XV
               option(data-cidade='curitiba' value='centro') Centro
+              option(data-cidade='brasilia' value='asa-norte') Asa Norte
+              option(data-cidade='brasilia' value='cruzeiro') Cruzeiro
+              option(data-cidade='brasilia' value='comercio-local-sul') Comércio Local Sul
+              option(data-cidade='campinas' value='castelo') Castelo
+              option(data-cidade='campinas' value='barao-geraldo') Barão Geraldo
+              option(data-cidade='campinas' value='cambui') Cambuí
+              option(data-cidade='floripa' value='coqueiros') Coqueiros
+              option(data-cidade='floripa' value='centro') Centro
+              option(data-cidade='floripa' value='itaguacu') Itaguaçu
+              option(data-cidade='porto-alegre' value='cidade-baixa') Cidade Baixa
+              option(data-cidade='porto-alegre' value='bom-fim') Bom Fim
+              option(data-cidade='porto-alegre' value='Farroupilha') Farroupilha
+              option(data-cidade='rio-de-janeiro' value='Centro') Centro
+              option(data-cidade='rio-de-janeiro' value='leblon') Leblon
+              option(data-cidade='rio-de-janeiro' value='recreio') Recreio
+              option(data-cidade='rio-de-janeiro' value='copacabana') Copacabana
+              option(data-cidade='rio-de-janeiro' value='lapa') Lapa
+              option(data-cidade='rio-de-janeiro' value='recreio-dos-bandeirantes') Recreio dos Bandeirantes
+              option(data-cidade='rio-de-janeiro' value='barra-da-tijuca') Barra da Tijuca
+              option(data-cidade='rio-de-janeiro' value='niteroi') Niterói
 
           .bares-content
             ul.bares-list
-              li.bares-item.sp.ribeirao-preto
+              li.bares-item.sp.ribeirao-preto.jd-sao-luiz
                 h3.title.bares-item_title Bar do Sócio
                 figure.bares-item_image
                   img(src='assets/img/petiscos/sp_ribeirao-preto_bar-do-socio.jpg')
@@ -91,7 +128,7 @@ html(lang='pt-br')
                         a.bares-item_social-item.maps(data-name='Bar do Sócio' target='_blank' href='https://goo.gl/maps/zPcYAT8wq112')
                           img(src='/assets/img/pin-icon.png')
 
-              li.bares-item.sp.ribeirao-preto
+              li.bares-item.sp.ribeirao-preto.campos-elisios
                 h3.title.bares-item_title Chocolate com Pimenta
                 figure.bares-item_image
                   img(src='assets/img/petiscos/sp_ribeirao-preto_chocolate-com-pimenta.jpg')
@@ -109,7 +146,7 @@ html(lang='pt-br')
                         a.bares-item_social-item.maps(data-name='Chocolate com Pimenta' target='_blank' href='https://goo.gl/maps/7L95rJTXAeG2')
                           img(src='/assets/img/pin-icon.png')
 
-              li.bares-item.sp.ribeirao-preto
+              li.bares-item.sp.ribeirao-preto.city-ribeirao
                 h3.title.bares-item_title Arpoador Gastronomia e Lazer
                 figure.bares-item_image
                   img(src='assets/img/petiscos/sp_ribeirao-preto_arpoador-gastronomia-e-lazer.jpg')
@@ -127,7 +164,7 @@ html(lang='pt-br')
                         a.bares-item_social-item.maps(data-name='Arpoador Gastronomia e Lazer' target='_blank' href='https://goo.gl/maps/ZHixe4TKHuL2')
                           img(src='/assets/img/pin-icon.png')
 
-              li.bares-item.sp.ribeirao-preto
+              li.bares-item.sp.ribeirao-preto.jd-sumare
                 h3.title.bares-item_title Tecoara Bar Gourmet
                 figure.bares-item_image
                   img(src='assets/img/petiscos/sp_ribeirao-preto_tecoara-bar-gourmet.jpg')
