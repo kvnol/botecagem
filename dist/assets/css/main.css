@@ -601,7 +601,9 @@ a {
   left: 0;
   overflow: hidden;
   height: 10.8125rem;
-  background-color: rgba(0, 0, 0, 0.6); }
+  background: -webkit-linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 95%);
+  background: -moz-linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 95%);
+  background: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 95%); }
   .bares-item_caption:hover > .bares-item_article {
     -webkit-transform: translateY(0);
     -moz-transform: translateY(0);
