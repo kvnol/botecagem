@@ -7,6 +7,7 @@ html(lang='pt-br')
     link(href='/assets/css/main.css', rel='stylesheet')
 
     script.
+      var dataLayer = [];
       (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
       new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
       j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -85,9 +86,9 @@ html(lang='pt-br')
                         p Ribeirão Preto, SP
                         p R. Carvalheira Torquato Rizzi, 1336
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/BardoSocioOficial/')
+                        a.bares-item_social-item.facebook(data-name='Bar do Sócio' target='_blank' href='https://www.facebook.com/BardoSocioOficial/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/zPcYAT8wq112')
+                        a.bares-item_social-item.maps(data-name='Bar do Sócio' target='_blank' href='https://goo.gl/maps/zPcYAT8wq112')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.ribeirao-preto
@@ -103,9 +104,9 @@ html(lang='pt-br')
                         p Ribeirão Preto, SP
                         p R. Alagoas, 222
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/barchocolatecompimenta/')
+                        a.bares-item_social-item.facebook(data-name='Chocolate com Pimenta' target='_blank' href='https://www.facebook.com/barchocolatecompimenta/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/7L95rJTXAeG2')
+                        a.bares-item_social-item.maps(data-name='Chocolate com Pimenta' target='_blank' href='https://goo.gl/maps/7L95rJTXAeG2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.ribeirao-preto
@@ -121,9 +122,9 @@ html(lang='pt-br')
                         p Ribeirão Preto, SP
                         p Praça Rotary Club, 105
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/arpoadorgastronomiaelazer/')
+                        a.bares-item_social-item.facebook(data-name='Arpoador Gastronomia e Lazer' target='_blank' href='https://www.facebook.com/arpoadorgastronomiaelazer/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/ZHixe4TKHuL2')
+                        a.bares-item_social-item.maps(data-name='Arpoador Gastronomia e Lazer' target='_blank' href='https://goo.gl/maps/ZHixe4TKHuL2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.ribeirao-preto
@@ -139,9 +140,9 @@ html(lang='pt-br')
                         p Ribeirão Preto, SP
                         p R. Arthur Bernardes, 20
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/TecoaraBarGourmet/')
+                        a.bares-item_social-item.facebook(data-name='Tecoara Bar Gourmet' target='_blank' href='https://www.facebook.com/TecoaraBarGourmet/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/sgREd3R4JfA2')
+                        a.bares-item_social-item.maps(data-name='Tecoara Bar Gourmet' target='_blank' href='https://goo.gl/maps/sgREd3R4JfA2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.ribeirao-preto.centro
@@ -157,9 +158,9 @@ html(lang='pt-br')
                         p Ribeirão Preto, SP
                         p R. Marcondes Salgado, 617
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/PaddockJockeyRibeirao')
+                        a.bares-item_social-item.facebook(data-name='Jockey Club' target='_blank' href='https://www.facebook.com/PaddockJockeyRibeirao')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/NfhpGsahWGE2')
+                        a.bares-item_social-item.maps(data-name='Jockey Club' target='_blank' href='https://goo.gl/maps/NfhpGsahWGE2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.pe.recife.boa-viagem
@@ -175,9 +176,9 @@ html(lang='pt-br')
                         p Recife, PE
                         p R. Dr. Gaspar Regueira Costa, 57
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/Reuni%C3%A3o-Bar-e-Restaurante-981109408672835/')
+                        a.bares-item_social-item.facebook(data-name='Reunião Bar e Restaurante' target='_blank' href='https://www.facebook.com/Reuni%C3%A3o-Bar-e-Restaurante-981109408672835/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/FB28QoNHPn92')
+                        a.bares-item_social-item.maps(data-name='Reunião Bar e Restaurante' target='_blank' href='https://goo.gl/maps/FB28QoNHPn92')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.pe.recife.espinheiro
@@ -193,9 +194,9 @@ html(lang='pt-br')
                         p Recife, PE
                         p R. da Hora, 34
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='http://www.faceboook.com/emporiosertanejo1')
+                        a.bares-item_social-item.facebook(data-name='Empório Sertanejo' target='_blank' href='http://www.faceboook.com/emporiosertanejo1')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/ti7bzTqr37M2')
+                        a.bares-item_social-item.maps(data-name='Empório Sertanejo' target='_blank' href='https://goo.gl/maps/ti7bzTqr37M2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.pe.recife.tamarineira
@@ -211,9 +212,9 @@ html(lang='pt-br')
                         p Recife, PE
                         p R. Padre Roma, 430
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/BarDoMorais/')
+                        a.bares-item_social-item.facebook(data-name='Bar do Moraes' target='_blank' href='https://www.facebook.com/BarDoMorais/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/okZ131VXBYw')
+                        a.bares-item_social-item.maps(data-name='Bar do Moraes' target='_blank' href='https://goo.gl/maps/okZ131VXBYw')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.pe.olinda.bairro-novo
@@ -229,9 +230,9 @@ html(lang='pt-br')
                         p Olinda, PE
                         p Av. Min. Marcos Freire, 407
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/bodedono/')
+                        a.bares-item_social-item.facebook(data-name='Bode do Nô' target='_blank' href='https://www.facebook.com/bodedono/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/KUYPxFn4Wuy')
+                        a.bares-item_social-item.maps(data-name='Bode do Nô' target='_blank' href='https://goo.gl/maps/KUYPxFn4Wuy')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.pe.recife.boa-viagem
@@ -247,9 +248,9 @@ html(lang='pt-br')
                         p Recife, PE
                         p R. Visc. de Jequitinhonha, 2237
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/CaldissimoBar/?rf=197303866973683')
+                        a.bares-item_social-item.facebook(data-name='Caldíssimo Grill Bar e Restaurante' target='_blank' href='https://www.facebook.com/CaldissimoBar/?rf=197303866973683')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/SapDo8KC3jN2')
+                        a.bares-item_social-item.maps(data-name='Caldíssimo Grill Bar e Restaurante' target='_blank' href='https://goo.gl/maps/SapDo8KC3jN2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.ba.salvador.rio-vermelho
@@ -265,9 +266,9 @@ html(lang='pt-br')
                         p Salvador, BA
                         p Largo da Mariquita, 10
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://pt-br.facebook.com/pages/Cabral-500/210534315642494')
+                        a.bares-item_social-item.facebook(data-name='Cabral 500' target='_blank' href='https://pt-br.facebook.com/pages/Cabral-500/210534315642494')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/PxezndvkGzo')
+                        a.bares-item_social-item.maps(data-name='Cabral 500' target='_blank' href='https://goo.gl/maps/PxezndvkGzo')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.ba.salvador.rio-vermelho
@@ -283,9 +284,9 @@ html(lang='pt-br')
                         p Salvador, BA
                         p R. João Gomes, 87
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/Novo-Póstudo-608544815934034/?rf=193094134074734')
+                        a.bares-item_social-item.facebook(data-name='Postudo' target='_blank' href='https://www.facebook.com/Novo-Póstudo-608544815934034/?rf=193094134074734')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/zy1ut4FRnuK2')
+                        a.bares-item_social-item.maps(data-name='Postudo' target='_blank' href='https://goo.gl/maps/zy1ut4FRnuK2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.ba.salvador.rio-vermelho
@@ -301,9 +302,9 @@ html(lang='pt-br')
                         p Salvador, BA
                         p R. Borges dos Réis, 24
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://pt-br.facebook.com/BotecoDoFranca')
+                        a.bares-item_social-item.facebook(data-name='Boteco do França' target='_blank' href='https://pt-br.facebook.com/BotecoDoFranca')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/PG1AwK62vGK2')
+                        a.bares-item_social-item.maps(data-name='Boteco do França' target='_blank' href='https://goo.gl/maps/PG1AwK62vGK2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.ba.salvador.rio-vermelho
@@ -319,9 +320,9 @@ html(lang='pt-br')
                         p Salvador, BA
                         p Largo de Santana, S/N
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/santamariapintaenina/')
+                        a.bares-item_social-item.facebook(data-name='Santa Maria' target='_blank' href='https://www.facebook.com/santamariapintaenina/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/y4Rmxbqadn92')
+                        a.bares-item_social-item.maps(data-name='Santa Maria' target='_blank' href='https://goo.gl/maps/y4Rmxbqadn92')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.mg.belo-horizonte.savassi
@@ -337,9 +338,9 @@ html(lang='pt-br')
                         p Belo Horizonte, MG
                         p R. Antônio de Albuquerque, 440
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.instagram.com/BAIANADOACARAJEBH/')
+                        a.bares-item_social-item.facebook(data-name='Baiana do Acarajé' target='_blank' href='https://www.instagram.com/BAIANADOACARAJEBH/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/YnE776fqLCK2')
+                        a.bares-item_social-item.maps(data-name='Baiana do Acarajé' target='_blank' href='https://goo.gl/maps/YnE776fqLCK2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.mg.belo-horizonte.sion
@@ -355,9 +356,9 @@ html(lang='pt-br')
                         p Belo Horizonte, MG
                         p R. Flórida, 15
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/BarDoAntonioLtda')
+                        a.bares-item_social-item.facebook(data-name='Bar do Antônio' target='_blank' href='https://www.facebook.com/BarDoAntonioLtda')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/6GyBYr6xPMw')
+                        a.bares-item_social-item.maps(data-name='Bar do Antônio' target='_blank' href='https://goo.gl/maps/6GyBYr6xPMw')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.mg.belo-horizonte.lourdes
@@ -373,9 +374,9 @@ html(lang='pt-br')
                         p Belo Horizonte, MG
                         p R. Curitiba, 2069
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.instagram.com/BOI.LOURDES/')
+                        a.bares-item_social-item.facebook(data-name='Boi Lourdes' target='_blank' href='https://www.instagram.com/BOI.LOURDES/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/mxYm69dAEfT2')
+                        a.bares-item_social-item.maps(data-name='Boi Lourdes' target='_blank' href='https://goo.gl/maps/mxYm69dAEfT2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.mg.belo-horizonte.lourdes
@@ -391,9 +392,9 @@ html(lang='pt-br')
                         p Belo Horizonte, MG
                         p R. Tomás Gonzaga, 578
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/GONZAGABARTIQUIM')
+                        a.bares-item_social-item.facebook(data-name='Butequim Gonzaga' target='_blank' href='https://www.facebook.com/GONZAGABARTIQUIM')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/b7eEYo4Sezw')
+                        a.bares-item_social-item.maps(data-name='Butequim Gonzaga' target='_blank' href='https://goo.gl/maps/b7eEYo4Sezw')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.mg.belo-horizonte.sao-francisco
@@ -409,9 +410,9 @@ html(lang='pt-br')
                         p Belo Horizonte, MG
                         p R. Estoril, 938
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/MARIADASTRANCAS')
+                        a.bares-item_social-item.facebook(data-name='Maria das Tranças' target='_blank' href='https://www.facebook.com/MARIADASTRANCAS')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/YMjBt6eU8h12')
+                        a.bares-item_social-item.maps(data-name='Maria das Tranças' target='_blank' href='https://goo.gl/maps/YMjBt6eU8h12')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.mg.belo-horizonte.lourdes
@@ -427,9 +428,9 @@ html(lang='pt-br')
                         p Belo Horizonte, MG
                         p R. Rio de Janeiro, 2221
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/ARMAZEMMEDEIROS')
+                        a.bares-item_social-item.facebook(data-name='Armazém Medeiros' target='_blank' href='https://www.facebook.com/ARMAZEMMEDEIROS')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/HSbDopkQJX52')
+                        a.bares-item_social-item.maps(data-name='Armazém Medeiros' target='_blank' href='https://goo.gl/maps/HSbDopkQJX52')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.mg.belo-horizonte.savassi
@@ -445,9 +446,9 @@ html(lang='pt-br')
                         p Belo Horizonte, MG
                         p R. Antônio de Albuquerque, 473
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='#')
+                        a.bares-item_social-item.facebook(data-name='Point Baiano' target='_blank' href='#')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/V1u1iHPC7MC2')
+                        a.bares-item_social-item.maps(data-name='Point Baiano' target='_blank' href='https://goo.gl/maps/V1u1iHPC7MC2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.mg.belo-horizonte.padre-eustaquio
@@ -463,9 +464,9 @@ html(lang='pt-br')
                         p Belo Horizonte, MG
                         p R. Padre Eustáquio, 2705
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/TRADICAODOCHURRASCO')
+                        a.bares-item_social-item.facebook(data-name='Tradição do Churrasco' target='_blank' href='https://www.facebook.com/TRADICAODOCHURRASCO')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/KkFNz4Dj7XQ2')
+                        a.bares-item_social-item.maps(data-name='Tradição do Churrasco' target='_blank' href='https://goo.gl/maps/KkFNz4Dj7XQ2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.ce.fortaleza.varjota
@@ -481,9 +482,9 @@ html(lang='pt-br')
                         p Fortaleza, CE
                         p R. Silva Jatahy, 1404
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/bardocebolinhavarjota')
+                        a.bares-item_social-item.facebook(data-name='Bar do Cebolinha' target='_blank' href='https://www.facebook.com/bardocebolinhavarjota')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/ZqKN6ixsYiM2')
+                        a.bares-item_social-item.maps(data-name='Bar do Cebolinha' target='_blank' href='https://goo.gl/maps/ZqKN6ixsYiM2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.ce.fortaleza.parquelandia
@@ -499,9 +500,9 @@ html(lang='pt-br')
                         p Fortaleza, CE
                         p R. Gustavo Sampaio, 692
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/Alencas-Bar-358556470826932/')
+                        a.bares-item_social-item.facebook(data-name='Alencas Bar' target='_blank' href='https://www.facebook.com/Alencas-Bar-358556470826932/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/m6CvfCHwWiM2')
+                        a.bares-item_social-item.maps(data-name='Alencas Bar' target='_blank' href='https://goo.gl/maps/m6CvfCHwWiM2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.ce.fortaleza.aldeota
@@ -517,9 +518,9 @@ html(lang='pt-br')
                         p Fortaleza, CE
                         p Av. Dom Luís, 685
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/PicanhaDoCowboy/')
+                        a.bares-item_social-item.facebook(data-name='Picanha do Cowboy' target='_blank' href='https://www.facebook.com/PicanhaDoCowboy/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://www.google.com.br/maps/place/Picanha+do+Cowboy+Dom+Luis/@-3.7337171,-38.4952169,15z/data=!4m5!3m4!1s0x0:0x6c42a8e2db53b223!8m2!3d-3.7337171!4d-38.4952169')
+                        a.bares-item_social-item.maps(data-name='Picanha do Cowboy' target='_blank' href='https://www.google.com.br/maps/place/Picanha+do+Cowboy+Dom+Luis/@-3.7337171,-38.4952169,15z/data=!4m5!3m4!1s0x0:0x6c42a8e2db53b223!8m2!3d-3.7337171!4d-38.4952169')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.ce.fortaleza.cambeba
@@ -535,9 +536,9 @@ html(lang='pt-br')
                         p Fortaleza, CE
                         p R. Crisanto Moreira da Rocha, 1230
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/BangsFortaleza/')
+                        a.bares-item_social-item.facebook(data-name='Bangs' target='_blank' href='https://www.facebook.com/BangsFortaleza/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/kiRtz5vAi9n')
+                        a.bares-item_social-item.maps(data-name='Bangs' target='_blank' href='https://goo.gl/maps/kiRtz5vAi9n')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.ce.fortaleza.meireles
@@ -553,9 +554,9 @@ html(lang='pt-br')
                         p Fortaleza, CE
                         p Av. Beira Mar, 1680
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/botecopraiafort/')
+                        a.bares-item_social-item.facebook(data-name='Boteco Praia' target='_blank' href='https://www.facebook.com/botecopraiafort/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/8wKaVGabbJ92')
+                        a.bares-item_social-item.maps(data-name='Boteco Praia' target='_blank' href='https://goo.gl/maps/8wKaVGabbJ92')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.pr.curitiba.agua-verde
@@ -571,9 +572,9 @@ html(lang='pt-br')
                         p Curitiba, PR
                         p Professor Assis Gonçalves, 1506
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/JabutiBar/')
+                        a.bares-item_social-item.facebook(data-name='Jabuti' target='_blank' href='https://www.facebook.com/JabutiBar/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/NtmZLtDejLA2')
+                        a.bares-item_social-item.maps(data-name='Jabuti' target='_blank' href='https://goo.gl/maps/NtmZLtDejLA2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.pr.curitiba.agua-verde
@@ -589,9 +590,9 @@ html(lang='pt-br')
                         p Curitiba, PR
                         p Santa Catarina, 1155
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/confrariaav/')
+                        a.bares-item_social-item.facebook(data-name='Confraria Água Verde' target='_blank' href='https://www.facebook.com/confrariaav/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/5ziF99yPzHC2')
+                        a.bares-item_social-item.maps(data-name='Confraria Água Verde' target='_blank' href='https://goo.gl/maps/5ziF99yPzHC2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.pr.curitiba.boqueirao
@@ -607,9 +608,9 @@ html(lang='pt-br')
                         p Curitiba, PR
                         p Waldemar Loureiro de Campos, 2840
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/Mercearia-2840-377932128908580/')
+                        a.bares-item_social-item.facebook(data-name='Mercearia 2840' target='_blank' href='https://www.facebook.com/Mercearia-2840-377932128908580/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/eEMfQRJTTfN2')
+                        a.bares-item_social-item.maps(data-name='Mercearia 2840' target='_blank' href='https://goo.gl/maps/eEMfQRJTTfN2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.pr.curitiba.alto-da-xv
@@ -625,9 +626,9 @@ html(lang='pt-br')
                         p Curitiba, PR
                         p Itupava, 1431
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/canabenta')
+                        a.bares-item_social-item.facebook(data-name='Canabenta' target='_blank' href='https://www.facebook.com/canabenta')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/a6DcMmZbCmm')
+                        a.bares-item_social-item.maps(data-name='Canabenta' target='_blank' href='https://goo.gl/maps/a6DcMmZbCmm')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.pr.curitiba.centro
@@ -643,9 +644,9 @@ html(lang='pt-br')
                         p Curitiba, PR
                         p Al.Augusto Stellfeld,799
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/BarBaranUcrania')
+                        a.bares-item_social-item.facebook(data-name='Bar Baran' target='_blank' href='https://www.facebook.com/BarBaranUcrania')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/FpJzfr1d6zL2')
+                        a.bares-item_social-item.maps(data-name='Bar Baran' target='_blank' href='https://goo.gl/maps/FpJzfr1d6zL2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.df.brasilia.asa-norte
@@ -661,9 +662,9 @@ html(lang='pt-br')
                         p Brasília, DF
                         p Setor Comercial Norte Q5 Bloco A
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.instagram.com/mercado153bsb')
+                        a.bares-item_social-item.facebook(data-name='Mercado 153' target='_blank' href='https://www.instagram.com/mercado153bsb')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/TxYxEcJei5u')
+                        a.bares-item_social-item.maps(data-name='Mercado 153' target='_blank' href='https://goo.gl/maps/TxYxEcJei5u')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.df.brasilia.cruzeiro
@@ -679,9 +680,9 @@ html(lang='pt-br')
                         p Brasília, DF
                         p Cruzeiro Novo Qd 1205 Bloco A
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.instagram.com/quiosque_voo_livre')
+                        a.bares-item_social-item.facebook(data-name='Voo Livre' target='_blank' href='https://www.instagram.com/quiosque_voo_livre')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/G9ij4rzdEgH2')
+                        a.bares-item_social-item.maps(data-name='Voo Livre' target='_blank' href='https://goo.gl/maps/G9ij4rzdEgH2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.df.brasilia.comercio-local-sul
@@ -697,9 +698,9 @@ html(lang='pt-br')
                         p Brasília, DF
                         p Asa Sul Comércio Local Sul, 407
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='#')
+                        a.bares-item_social-item.facebook(data-name='Beco' target='_blank' href='#')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/yRHY3KzGcXw')
+                        a.bares-item_social-item.maps(data-name='Beco' target='_blank' href='https://goo.gl/maps/yRHY3KzGcXw')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.df.brasilia.asa-norte
@@ -715,9 +716,9 @@ html(lang='pt-br')
                         p Brasília, DF
                         p Asa Norte Comércio Local Norte, 115
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.instagram.com/nossomar')
+                        a.bares-item_social-item.facebook(data-name='Nosso Mar' target='_blank' href='https://www.instagram.com/nossomar')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/XhbC8xBnqs82')
+                        a.bares-item_social-item.maps(data-name='Nosso Mar' target='_blank' href='https://goo.gl/maps/XhbC8xBnqs82')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.campinas.castelo
@@ -733,9 +734,9 @@ html(lang='pt-br')
                         p Campinas, SP
                         p R. Rafael Sales, 828
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/bardonaflor')
+                        a.bares-item_social-item.facebook(data-name='Bar Dona Flor' target='_blank' href='https://www.facebook.com/bardonaflor')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/ZPCn2FPjX2o')
+                        a.bares-item_social-item.maps(data-name='Bar Dona Flor' target='_blank' href='https://goo.gl/maps/ZPCn2FPjX2o')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.campinas.barao-geraldo
@@ -751,9 +752,9 @@ html(lang='pt-br')
                         p Campinas, SP
                         p R. Antônio Pierozzi, 230
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='#')
+                        a.bares-item_social-item.facebook(data-name='Tradicional Bar da Coxinha' target='_blank' href='#')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/49NGe2DmKcM2')
+                        a.bares-item_social-item.maps(data-name='Tradicional Bar da Coxinha' target='_blank' href='https://goo.gl/maps/49NGe2DmKcM2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.campinas.cambui
@@ -769,9 +770,9 @@ html(lang='pt-br')
                         p Campinas, SP
                         p R. Capitão Francisco de Paula, 208
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/zinbarcampinas/')
+                        a.bares-item_social-item.facebook(data-name='ZinBar Cambuí' target='_blank' href='https://www.facebook.com/zinbarcampinas/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/DMrZfFriWhM2')
+                        a.bares-item_social-item.maps(data-name='ZinBar Cambuí' target='_blank' href='https://goo.gl/maps/DMrZfFriWhM2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.campinas.jd-nssa-sra-auxiliadora
@@ -787,9 +788,9 @@ html(lang='pt-br')
                         p Campinas, SP
                         p R. Dr Oswaldo Cruz, 586
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='www.facebook.com/zinbarcampinas/')
+                        a.bares-item_social-item.facebook(data-name='ZinBar Taquaral' target='_blank' href='www.facebook.com/zinbarcampinas/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/HZf4AxhoTbn')
+                        a.bares-item_social-item.maps(data-name='ZinBar Taquaral' target='_blank' href='https://goo.gl/maps/HZf4AxhoTbn')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.campinas.cambui
@@ -805,9 +806,9 @@ html(lang='pt-br')
                         p Campinas, SP
                         p R. Sampainho, 305
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='#')
+                        a.bares-item_social-item.facebook(data-name='Brexó' target='_blank' href='#')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/AQjFzJB23t82')
+                        a.bares-item_social-item.maps(data-name='Brexó' target='_blank' href='https://goo.gl/maps/AQjFzJB23t82')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sc.floripa.coqueiros
@@ -823,9 +824,9 @@ html(lang='pt-br')
                         p Florianópolis, SC
                         p R. Desembargador Pedro Silva, 2360
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/botecozemane/')
+                        a.bares-item_social-item.facebook(data-name='Zé Mané' target='_blank' href='https://www.facebook.com/botecozemane/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/uCFgxL25Bf22')
+                        a.bares-item_social-item.maps(data-name='Zé Mané' target='_blank' href='https://goo.gl/maps/uCFgxL25Bf22')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sc.floripa.centro
@@ -841,9 +842,9 @@ html(lang='pt-br')
                         p Florianópolis, SC
                         p R. Jerônimo Coelho, 60
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/restauranteranchodailha/')
+                        a.bares-item_social-item.facebook(data-name='Rancho da Ilha' target='_blank' href='https://www.facebook.com/restauranteranchodailha/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/BfSQwFinepz')
+                        a.bares-item_social-item.maps(data-name='Rancho da Ilha' target='_blank' href='https://goo.gl/maps/BfSQwFinepz')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sc.floripa.centro
@@ -859,9 +860,9 @@ html(lang='pt-br')
                         p Florianópolis, SC
                         p R. Jerônimo Coelho, 60
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/trapichebarfl/')
+                        a.bares-item_social-item.facebook(data-name='Trapiche Bar' target='_blank' href='https://www.facebook.com/trapichebarfl/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/BdVBCh1Wabm')
+                        a.bares-item_social-item.maps(data-name='Trapiche Bar' target='_blank' href='https://goo.gl/maps/BdVBCh1Wabm')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sc.floripa.itaguacu
@@ -877,9 +878,9 @@ html(lang='pt-br')
                         p Florianópolis, SC
                         p R. Euclídes da Cunha, 16
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/botecoseobrazil/')
+                        a.bares-item_social-item.facebook(data-name='Seo Brasil' target='_blank' href='https://www.facebook.com/botecoseobrazil/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/EfBG8upvPnJ2')
+                        a.bares-item_social-item.maps(data-name='Seo Brasil' target='_blank' href='https://goo.gl/maps/EfBG8upvPnJ2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sc.floripa.centro
@@ -895,9 +896,9 @@ html(lang='pt-br')
                         p Florianópolis, SC
                         p R. Victor Meirelles, 98
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='#')
+                        a.bares-item_social-item.facebook(data-name='Kibelândia' target='_blank' href='#')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/2TFwNYvEb5D2')
+                        a.bares-item_social-item.maps(data-name='Kibelândia' target='_blank' href='https://goo.gl/maps/2TFwNYvEb5D2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.rs.porto-alegre.cidade-baixa
@@ -913,9 +914,9 @@ html(lang='pt-br')
                         p Porto Alegre, RS
                         p R. Gen. Lima e Silva, 431
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='#')
+                        a.bares-item_social-item.facebook(data-name='Pedrini Lima e Silva' target='_blank' href='#')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/dhcSRrd7JpC2')
+                        a.bares-item_social-item.maps(data-name='Pedrini Lima e Silva' target='_blank' href='https://goo.gl/maps/dhcSRrd7JpC2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.rs.porto-alegre.cidade-baixa
@@ -931,9 +932,9 @@ html(lang='pt-br')
                         p Porto Alegre, RS
                         p Venâncio Aires, 204
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/BotecoPedrini/')
+                        a.bares-item_social-item.facebook(data-name='Pedrini' target='_blank' href='https://www.facebook.com/BotecoPedrini/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/ouT14YjMKGs')
+                        a.bares-item_social-item.maps(data-name='Pedrini' target='_blank' href='https://goo.gl/maps/ouT14YjMKGs')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.rs.porto-alegre.bom-fim
@@ -949,9 +950,9 @@ html(lang='pt-br')
                         p Porto Alegre, RS
                         p Rua General João Telles, 528
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/pages/Bar-e-Restaurante-Odessa-de-Isaac-Babel/153841351343758')
+                        a.bares-item_social-item.facebook(data-name='Odessa' target='_blank' href='https://www.facebook.com/pages/Bar-e-Restaurante-Odessa-de-Isaac-Babel/153841351343758')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/ixGSZaDHwM42')
+                        a.bares-item_social-item.maps(data-name='Odessa' target='_blank' href='https://goo.gl/maps/ixGSZaDHwM42')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.rs.porto-alegre.farroupilha
@@ -967,9 +968,9 @@ html(lang='pt-br')
                         p Porto Alegre, RS
                         p Av. Venâncio Aires, 876
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/bardobetopoa/')
+                        a.bares-item_social-item.facebook(data-name='Beto Venâncio' target='_blank' href='https://www.facebook.com/bardobetopoa/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/m6z6FuhC4M12')
+                        a.bares-item_social-item.maps(data-name='Beto Venâncio' target='_blank' href='https://goo.gl/maps/m6z6FuhC4M12')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.rs.porto-alegre.cidade-baixa
@@ -985,9 +986,9 @@ html(lang='pt-br')
                         p Porto Alegre, RS
                         p Av. Venâncio Aires, 876
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='#')
+                        a.bares-item_social-item.facebook(data-name='Ossip' target='_blank' href='#')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/qZbmPZxsQFw')
+                        a.bares-item_social-item.maps(data-name='Ossip' target='_blank' href='https://goo.gl/maps/qZbmPZxsQFw')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.sao-paulo.itaim-bibi
@@ -1003,9 +1004,9 @@ html(lang='pt-br')
                         p São Paulo, SP
                         p Rua Tabapuã, 1470
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/brexobar/')
+                        a.bares-item_social-item.facebook(data-name='Brexó' target='_blank' href='https://www.facebook.com/brexobar/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/73VGBadWVuK2')
+                        a.bares-item_social-item.maps(data-name='Brexó' target='_blank' href='https://goo.gl/maps/73VGBadWVuK2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.santo-andre.jardim
@@ -1021,9 +1022,9 @@ html(lang='pt-br')
                         p Santo André, SP
                         p Alameda São Caetano, 356
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/confrariajardim/')
+                        a.bares-item_social-item.facebook(data-name='Confraria Jardim' target='_blank' href='https://www.facebook.com/confrariajardim/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/FVmLiX5d2uP2')
+                        a.bares-item_social-item.maps(data-name='Confraria Jardim' target='_blank' href='https://goo.gl/maps/FVmLiX5d2uP2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.sao-paulo.campo-belo
@@ -1039,9 +1040,9 @@ html(lang='pt-br')
                         p São Paulo, SP
                         p Rua João de Sousa Dias, 248
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/botecoecerveja')
+                        a.bares-item_social-item.facebook(data-name='Sr. Mostarda' target='_blank' href='https://www.facebook.com/botecoecerveja')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/HSioVQc6uF42')
+                        a.bares-item_social-item.maps(data-name='Sr. Mostarda' target='_blank' href='https://goo.gl/maps/HSioVQc6uF42')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.santo-andre.jardim
@@ -1057,9 +1058,9 @@ html(lang='pt-br')
                         p Santo André, SP
                         p R. das Figueiras, 764
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/SoSantoBar')
+                        a.bares-item_social-item.facebook(data-name='Só Santo' target='_blank' href='https://www.facebook.com/SoSantoBar')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/SQ771vGN9Et')
+                        a.bares-item_social-item.maps(data-name='Só Santo' target='_blank' href='https://goo.gl/maps/SQ771vGN9Et')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.sao-paulo.vila-isolina-mazzei
@@ -1075,9 +1076,9 @@ html(lang='pt-br')
                         p São Paulo, SP
                         p Av. Luiz Dumont Villares, 794
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='#')
+                        a.bares-item_social-item.facebook(data-name='Adega Original' target='_blank' href='#')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/ydjMU23Yn242')
+                        a.bares-item_social-item.maps(data-name='Adega Original' target='_blank' href='https://goo.gl/maps/ydjMU23Yn242')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.sao-paulo.tatuape
@@ -1093,9 +1094,9 @@ html(lang='pt-br')
                         p São Paulo, SP
                         p Rua Tuiuti, 3052
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/barsaojorgetatuape')
+                        a.bares-item_social-item.facebook(data-name='São Jorge' target='_blank' href='https://www.facebook.com/barsaojorgetatuape')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/ydjMU23Yn242')
+                        a.bares-item_social-item.maps(data-name='São Jorge' target='_blank' href='https://goo.gl/maps/ydjMU23Yn242')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.sao-paulo.santana
@@ -1111,9 +1112,9 @@ html(lang='pt-br')
                         p São Paulo, SP
                         p Av. Eng. Caetano Álvares, 5496
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='#')
+                        a.bares-item_social-item.facebook(data-name='Caetanos Bar' target='_blank' href='#')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/h8Ff16sLq542')
+                        a.bares-item_social-item.maps(data-name='Caetanos Bar' target='_blank' href='https://goo.gl/maps/h8Ff16sLq542')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.sao-paulo.moema
@@ -1129,9 +1130,9 @@ html(lang='pt-br')
                         p São Paulo, SP
                         p Alameda dos Anapurus, 1488
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/barsalvador/')
+                        a.bares-item_social-item.facebook(data-name='Bar Salvador' target='_blank' href='https://www.facebook.com/barsalvador/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/8zET22gZcas')
+                        a.bares-item_social-item.maps(data-name='Bar Salvador' target='_blank' href='https://goo.gl/maps/8zET22gZcas')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.sao-paulo.itaim-bibi
@@ -1147,9 +1148,9 @@ html(lang='pt-br')
                         p São Paulo, SP
                         p Rua Clodomiro Amazonas, 321
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/ZeGordoItaim/')
+                        a.bares-item_social-item.facebook(data-name='Zé Gordo' target='_blank' href='https://www.facebook.com/ZeGordoItaim/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/wENdYLnJAQ82')
+                        a.bares-item_social-item.maps(data-name='Zé Gordo' target='_blank' href='https://goo.gl/maps/wENdYLnJAQ82')
                           img(src='/assets/img/pin-icon.png')
 
               //- li.bares-item.sp.sao-paulo.jardim-paulista
@@ -1165,9 +1166,9 @@ html(lang='pt-br')
               //-           p São Paulo, SP
               //-           p Alameda Joaquim Eugênio de Lima, 571
               //-         nav.bares-item_social
-              //-           a.bares-item_social-item(target='_blank' href='https://www.facebook.com/pierpaulista/')
+              //-           a.bares-item_social-item.facebook(data-name='' target='_blank' href='https://www.facebook.com/pierpaulista/')
               //-             img(src='/assets/img/facebook-icon.png')
-              //-           a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/NLc8krmcCwm')
+              //-           a.bares-item_social-item.maps(data-name='' target='_blank' href='https://goo.gl/maps/NLc8krmcCwm')
               //-             img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.sao-paulo.vila-mariana
@@ -1183,9 +1184,9 @@ html(lang='pt-br')
                         p São Paulo, SP
                         p R. Joaquim Távora, 1150
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='#')
+                        a.bares-item_social-item.facebook(data-name='Barxaréu' target='_blank' href='#')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/fUrRZUT66FE2')
+                        a.bares-item_social-item.maps(data-name='Barxaréu' target='_blank' href='https://goo.gl/maps/fUrRZUT66FE2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.sp.sao-paulo.itaim-bibi
@@ -1201,9 +1202,9 @@ html(lang='pt-br')
                         p São Paulo, SP
                         p Rua Manuel Guedes, 281
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/vielabaritaimbibi/')
+                        a.bares-item_social-item.facebook(data-name='Viela' target='_blank' href='https://www.facebook.com/vielabaritaimbibi/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/ZCCpp5FSf6p')
+                        a.bares-item_social-item.maps(data-name='Viela' target='_blank' href='https://goo.gl/maps/ZCCpp5FSf6p')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.rj.rio-de-janeiro.centro
@@ -1219,9 +1220,9 @@ html(lang='pt-br')
                         p Rio de Janeiro, RJ
                         p R. Riachuelo, 49
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/botequimosximenes/')
+                        a.bares-item_social-item.facebook(data-name='Botequim os Ximenes' target='_blank' href='https://www.facebook.com/botequimosximenes/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/p73FNLeWbbw')
+                        a.bares-item_social-item.maps(data-name='Botequim os Ximenes' target='_blank' href='https://goo.gl/maps/p73FNLeWbbw')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.rj.rio-de-janeiro.leblon
@@ -1237,9 +1238,9 @@ html(lang='pt-br')
                         p Rio de Janeiro, RJ
                         p R. Cupertino Durão, 79
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/pages/Bar-Do-Bacana/508305245902590')
+                        a.bares-item_social-item.facebook(data-name='Bar do Bacana' target='_blank' href='https://www.facebook.com/pages/Bar-Do-Bacana/508305245902590')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/y9t5GV2z4yw')
+                        a.bares-item_social-item.maps(data-name='Bar do Bacana' target='_blank' href='https://goo.gl/maps/y9t5GV2z4yw')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.rj.rio-de-janeiro.leblon
@@ -1255,9 +1256,9 @@ html(lang='pt-br')
                         p Rio de Janeiro, RJ
                         p Rua Conde de Bernadotte, 26
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/BotequimInformal')
+                        a.bares-item_social-item.facebook(data-name='Rede Informal Leblon' target='_blank' href='https://www.facebook.com/BotequimInformal')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/dvNSWjKV51w')
+                        a.bares-item_social-item.maps(data-name='Rede Informal Leblon' target='_blank' href='https://goo.gl/maps/dvNSWjKV51w')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.rj.rio-de-janeiro.recreio
@@ -1273,27 +1274,9 @@ html(lang='pt-br')
                         p Rio de Janeiro, RJ
                         p Benvindo de Novaes, 18006
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/butecotradicional/')
+                        a.bares-item_social-item.facebook(data-name='Tradicional Recreio' target='_blank' href='https://www.facebook.com/butecotradicional/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/XgFocPPPqcz')
-                          img(src='/assets/img/pin-icon.png')
-
-              li.bares-item.rj.rio-de-janeiro.recreio
-                h3.title.bares-item_title Tradicional Recreio
-                figure.bares-item_image
-                  img(src='assets/img/petiscos/rj_rj_tradicional.jpg')
-                  figcaption.bares-item_caption
-                    article.bares-item_article
-                      h4.title.bares-item_article-title Croquete do Boteco
-                      p.bares-item_article-text Croquete do boteco: Bolinho recheado de Camarão, na massa especial da casa, acompanhado de geléia picante.
-                    footer.bares-item_footer
-                      .bares-item_footer_info
-                        p Rio de Janeiro, RJ
-                        p Benvindo de Novaes, 1800
-                      nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/butecotradicional/')
-                          img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/XgFocPPPqcz')
+                        a.bares-item_social-item.maps(data-name='Tradicional Recreio' target='_blank' href='https://goo.gl/maps/XgFocPPPqcz')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.rj.rio-de-janeiro.copacabana
@@ -1309,9 +1292,9 @@ html(lang='pt-br')
                         p Rio de Janeiro, RJ
                         p Rua Hilário de Gouvêia, 71
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/pavaoazul/')
+                        a.bares-item_social-item.facebook(data-name='Pavão Azul' target='_blank' href='https://www.facebook.com/pavaoazul/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/TgVzMqdtQjw')
+                        a.bares-item_social-item.maps(data-name='Pavão Azul' target='_blank' href='https://goo.gl/maps/TgVzMqdtQjw')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.rj.rio-de-janeiro.centro
@@ -1327,9 +1310,9 @@ html(lang='pt-br')
                         p Rio de Janeiro, RJ
                         p R. do Rosário, 24
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/botecobelmonte/')
+                        a.bares-item_social-item.facebook(data-name='Belmonte Praça XV' target='_blank' href='https://www.facebook.com/botecobelmonte/')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/WdFhuchTgXr')
+                        a.bares-item_social-item.maps(data-name='Belmonte Praça XV' target='_blank' href='https://goo.gl/maps/WdFhuchTgXr')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.rj.rio-de-janeiro.lapa
@@ -1345,9 +1328,9 @@ html(lang='pt-br')
                         p Rio de Janeiro, RJ
                         p Av. Mem de Sá, 77
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/pages/Boteco-da-Garrafa-Lapa/186494424809161')
+                        a.bares-item_social-item.facebook(data-name='Boteco da Garrafa' target='_blank' href='https://www.facebook.com/pages/Boteco-da-Garrafa-Lapa/186494424809161')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/JGBcdqGvznQ2')
+                        a.bares-item_social-item.maps(data-name='Boteco da Garrafa' target='_blank' href='https://goo.gl/maps/JGBcdqGvznQ2')
                           img(src='/assets/img/pin-icon.png')
 
               //- li.bares-item.rj.rio-de-janeiro.lapa
@@ -1363,9 +1346,9 @@ html(lang='pt-br')
               //-           p Rio de Janeiro, RJ
               //-           p Av. Mem de Sá, 77
               //-         nav.bares-item_social
-              //-           a.bares-item_social-item(target='_blank' href='https://www.instagram.com/bar399/?hl=pt-br')
+              //-           a.bares-item_social-item.facebook(data-name='' target='_blank' href='https://www.instagram.com/bar399/?hl=pt-br')
               //-             img(src='/assets/img/facebook-icon.png')
-              //-           a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/JGBcdqGvznQ2')
+              //-           a.bares-item_social-item.maps(data-name='' target='_blank' href='https://goo.gl/maps/JGBcdqGvznQ2')
               //-             img(src='/assets/img/pin-icon.png')
 
               li.bares-item.rj.rio-de-janeiro.recreio-dos-bandeirantes
@@ -1381,9 +1364,9 @@ html(lang='pt-br')
                         p Rio de Janeiro, RJ
                         p  Av. Guilherme de Almeida, 83
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.facebook.com/Acervo.Bar')
+                        a.bares-item_social-item.facebook(data-name='Acervo' target='_blank' href='https://www.facebook.com/Acervo.Bar')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/HWchBjNdnFD2')
+                        a.bares-item_social-item.maps(data-name='Acervo' target='_blank' href='https://goo.gl/maps/HWchBjNdnFD2')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.rj.rio-de-janeiro.barra-da-tijuca
@@ -1399,9 +1382,9 @@ html(lang='pt-br')
                         p Rio de Janeiro, RJ
                         p Av. Olegário Maciel, 130
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='https://www.instagram.com/bardoadao/?hl=pt-br')
+                        a.bares-item_social-item.facebook(data-name='Bar do Adão Olegário' target='_blank' href='https://www.instagram.com/bardoadao/?hl=pt-br')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/HddEucuzLB52')
+                        a.bares-item_social-item.maps(data-name='Bar do Adão Olegário' target='_blank' href='https://goo.gl/maps/HddEucuzLB52')
                           img(src='/assets/img/pin-icon.png')
 
               li.bares-item.rj.rio-de-janeiro.niteroi
@@ -1417,11 +1400,32 @@ html(lang='pt-br')
                         p Rio de Janeiro, RJ
                         p Av. Alm. Tamandaré, 4879
                       nav.bares-item_social
-                        a.bares-item_social-item(target='_blank' href='#')
+                        a.bares-item_social-item.facebook(data-name='Queen Oceanico' target='_blank' href='#')
                           img(src='/assets/img/facebook-icon.png')
-                        a.bares-item_social-item(target='_blank' href='https://goo.gl/maps/FRqifMRuoyR2')
+                        a.bares-item_social-item.maps(data-name='Queen Oceanico' target='_blank' href='https://goo.gl/maps/FRqifMRuoyR2')
                           img(src='/assets/img/pin-icon.png')
 
+    script.
+      var barFb = document.querySelectorAll('.facebook');
+      var barMaps = document.querySelectorAll('.maps');
+      window.addEventListener('load', function(e) {
+        var page = document.body.classList[0];
+        dataLayer.push({'pageType': page});
+      });
+      Array.prototype.forEach.call(barFb, function(item, index) {
+        item.addEventListener('click', function(e) {
+          e.preventDefault;
+          var barName = this.getAttribute('data-name');
+           dataLayer.push({'facebookBar': barName});
+        });
+      });
+      Array.prototype.forEach.call(barMaps, function(item, index) {
+        item.addEventListener('click', function(e) {
+          e.preventDefault;
+          var barName = this.getAttribute('data-name');
+          dataLayer.push({'mapaBar': barName});
+        });
+      });
     script(src='/assets/js/main.js')
     noscript
       iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-TM7D5J9', height='0', width='0', style='display:none;visibility:hidden')
