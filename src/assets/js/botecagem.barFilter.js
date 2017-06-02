@@ -11,7 +11,7 @@
     state.addEventListener('change', removeCity, 'false');
     city.addEventListener('change', barFilter, 'false');
     city.addEventListener('change', disableSiblings, 'false');
-    city.addEventListener('change', removeDistrict, 'false');
+    city.addEventListener('change', removeCity, 'false');
     district.addEventListener('change', barFilter, 'false');
   }
 
@@ -41,40 +41,16 @@
 
   function removeCity() {
     var itemValue = this.options[this.selectedIndex].value;
-    var itemState = doc.querySelector('[data-estado="' + itemValue + '"]');
-    var itemStateValue = itemState.attributes[0].value;
 
-    if (itemValue === 'estados' || itemValue === 'cidades') {
-      Array.prototype.forEach.call(this.nextSibling.options, function(item, index) {
-        item.style.display = 'block';
-      });
-    }
-
-    if (itemStateValue === itemValue) {
-      Array.prototype.forEach.call(this.nextSibling.options, function(item, index) {
+    Array.prototype.forEach.call(this.nextSibling.options, function(item, index) {
+      if (index !== 0) {
         item.style.display = 'none';
-      });
-      itemState.style.display = 'block';
-    }
-  }
-
-  function removeDistrict() {
-    var itemValue = this.options[this.selectedIndex].value;
-    var itemState = doc.querySelector('[data-cidade="' + itemValue + '"]');
-    var itemStateValue = itemState.attributes[0].value;
-
-    if (itemStateValue === 'estados' || itemValue === 'cidades') {
-      Array.prototype.forEach.call(this.nextSibling.options, function(item, index) {
+      }
+      
+      if (item.value === 'estados' || item.value === 'cidades' || item.attributes[0].value === itemValue) {
         item.style.display = 'block';
-      });
-    }
-
-    if (itemState.attributes[0].value === itemValue) {
-      Array.prototype.forEach.call(this.nextSibling.options, function(item, index) {
-        item.style.display = 'none';
-      });
-      itemState.style.display = 'block';
-    }
+      }
+    });
   }
 
 })(window, document);
