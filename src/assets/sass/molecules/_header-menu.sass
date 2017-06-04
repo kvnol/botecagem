@@ -9,18 +9,44 @@
   color: #fff
   text-transform: uppercase
 
+  @media (max-width: 64rem)
+    font-size: 1.6rem
+
+  @media (max-width: 43.125rem)
+    display: block
+    font-size: 1.6rem
+
   &:not(:last-child)
     margin-right: 5rem
+
+    @media (max-width: 64rem)
+      margin-right: 3rem
+
+    @media (max-width: 43.125rem)
+      margin-right: 2rem
+
+    @media (max-width: 43.125rem)
+      margin:
+        right: 0
+        bottom: 1.2rem
 
   &:hover
     padding-top: .7rem
     border-top: 4px solid #d6b976
     color: #d6b976
 
+    @media (max-width: 43.125rem)
+      padding-top: 0
+      border-top: 0
+
 .header-menu_item--current
   padding-top: .7rem
   border-top: 4px solid #d6b976
   color: #d6b976
+
+  @media (max-width: 43.125rem)
+    padding-top: 0
+    border-top: 0
 
   &:hover
     border-color: darken(#d6b976, 10%)

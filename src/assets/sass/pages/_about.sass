@@ -4,20 +4,41 @@
 .about-title
   font-size: 4.2rem
 
+  @media (max-width: 25rem)
+    font-size: 18.75vw
+
   img
     margin-left: 1.6rem
     vertical-align: middle
+
+    @media (max-width: 43.4375rem)
+      margin-left: 0
+
+    @media (max-width: 25rem)
+      width: 100%
 
 .about-text
   font-size: .975rem
 
 .about-gallery_image
+
+  @media (max-width: 28.125rem)
+    width: 100%
+
   &:not(:last-child)
     margin-right: .625rem
+
+    @media (max-width: 28.125rem)
+      margin:
+        right: 0
+        bottom: .625rem
 
 .about-info_image
   float: left
   margin-right: .9375rem
+
+  @media (max-width: 80rem)
+    float: none
 
 .about-info_text
   line-height: 1.25rem
