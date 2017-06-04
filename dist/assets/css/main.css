@@ -462,7 +462,6 @@ body {
   color: #fff;
   background-attachment: fixed;
   background-image: url(/assets/img/bg-pages.jpg);
-  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
 
@@ -546,6 +545,10 @@ a {
   padding: .75rem 0;
   border-top: 4px solid #fff;
   background-color: rgba(0, 0, 0, 0.85); }
+  @media (max-width: 64rem) {
+    .header {
+      margin-top: 0;
+      background-color: #000; } }
 
 .about-esquenta {
   margin-bottom: 5rem; }
