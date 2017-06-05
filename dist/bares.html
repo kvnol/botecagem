@@ -14,14 +14,14 @@ Array.prototype.forEach.call(barFb, function(item, index) {
   item.addEventListener('click', function(e) {
     e.preventDefault;
     var barName = this.getAttribute('data-name');
-     dataLayer.push({'facebookBar': barName});
+     dataLayer.push({'event': 'clickFacebook', 'facebookBar': barName});
   });
 });
 Array.prototype.forEach.call(barMaps, function(item, index) {
   item.addEventListener('click', function(e) {
     e.preventDefault;
     var barName = this.getAttribute('data-name');
-    dataLayer.push({'mapaBar': barName});
+    dataLayer.push({'event': 'clickMapa', 'mapaBar': barName});
   });
 });
 </script><script src="/assets/js/main.js"></script><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TM7D5J9" height="0" width="0" style="display:none;visibility:hidden;"></iframe></noscript></body></html>
