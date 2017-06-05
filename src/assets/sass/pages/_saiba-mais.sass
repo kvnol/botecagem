@@ -1,10 +1,20 @@
+.saibaMais-antarctica
+  @media (max-width: 28.125rem)
+    margin-bottom: 1.2rem    
+
 .saibaMais-antarctica_image
   float: left
   margin-right: 1.5625rem
 
+  @media (max-width: 28.125rem)
+    display: none
+
 .saibaMais-serramalte_image
   float: right
   margin-left: 1.5625rem
+
+  @media (max-width: 28.125rem)
+    display: none
 
 .saibaMais-antarctica_title,
 .saibaMais-serramalte_title,
@@ -14,13 +24,29 @@
 .saibaMais-antarctica_content
   margin-left: 5.575rem
 
+  @media (max-width: 28.125rem)
+    margin: 0
+
 .saibaMais-serramalte_content
   margin-right: 5.575rem
   text-align: right
+
+  @media (max-width: 28.125rem)
+    margin: 0
+    text-align: left
 
 .evento2016_subtitle
   font-size: 1rem
   text-transform: uppercase
 
-.evento2016_image:not(:last-child)
-  margin-right: .625rem
+.evento2016_image
+  @media (max-width: 28.125rem)
+    width: 100%
+  
+  &:not(:last-child)
+    margin-right: .625rem
+
+    @media (max-width: 28.125rem)
+      margin:
+        right: 0
+        bottom: .625rem

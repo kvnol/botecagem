@@ -823,13 +823,23 @@ a {
   display: block;
   margin: 1.875rem auto; }
 
+@media (max-width: 28.125rem) {
+  .saibaMais-antarctica {
+    margin-bottom: 1.2rem; } }
+
 .saibaMais-antarctica_image {
   float: left;
   margin-right: 1.5625rem; }
+  @media (max-width: 28.125rem) {
+    .saibaMais-antarctica_image {
+      display: none; } }
 
 .saibaMais-serramalte_image {
   float: right;
   margin-left: 1.5625rem; }
+  @media (max-width: 28.125rem) {
+    .saibaMais-serramalte_image {
+      display: none; } }
 
 .saibaMais-antarctica_title,
 .saibaMais-serramalte_title,
@@ -838,14 +848,29 @@ a {
 
 .saibaMais-antarctica_content {
   margin-left: 5.575rem; }
+  @media (max-width: 28.125rem) {
+    .saibaMais-antarctica_content {
+      margin: 0; } }
 
 .saibaMais-serramalte_content {
   margin-right: 5.575rem;
   text-align: right; }
+  @media (max-width: 28.125rem) {
+    .saibaMais-serramalte_content {
+      margin: 0;
+      text-align: left; } }
 
 .evento2016_subtitle {
   font-size: 1rem;
   text-transform: uppercase; }
 
+@media (max-width: 28.125rem) {
+  .evento2016_image {
+    width: 100%; } }
+
 .evento2016_image:not(:last-child) {
   margin-right: .625rem; }
+  @media (max-width: 28.125rem) {
+    .evento2016_image:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: .625rem; } }
