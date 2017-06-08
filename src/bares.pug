@@ -18,19 +18,19 @@ html(lang='pt-br')
             h2.bares-subtitle Conheça os bares participantes do Esquenta Botecagem:
 
           .bares-filters
-            select.select.bares-filters_select(data-id='estado')
-              option(value='estados') - Estado
-              option(value='ba') Bahia
-              option(value='df') Distrito Federal
-              option(value='ce') Ceará
-              option(value='mg') Minas Gerais
-              option(value='pr') Paraná
-              option(value='pe') Pernambuco
-              option(value='rj') Rio de Janeiro
-              option(value='sp') Santa Catarina
-              option(value='sp') São Paulo
+            //- select.select.bares-filters_select(data-id='estado')
+            //-   option(value='estados') - Estado
+            //-   option(value='ba') Bahia
+            //-   option(value='df') Distrito Federal
+            //-   option(value='ce') Ceará
+            //-   option(value='mg') Minas Gerais
+            //-   option(value='pr') Paraná
+            //-   option(value='pe') Pernambuco
+            //-   option(value='rj') Rio de Janeiro
+            //-   option(value='sp') Santa Catarina
+            //-   option(value='sp') São Paulo
 
-            select.select.bares-filters_select(disabled data-id='cidades')
+            select.select.bares-filters_select(data-id='cidades')
               option(value='cidades') - Cidade
               option(data-estado='mg' value='belo-horizonte') Belo Horizonte
               option(data-estado='df' value='brasilia') Brasília
@@ -48,61 +48,61 @@ html(lang='pt-br')
               option(data-estado='rs' value='porto-alegre') Porto Alegre
 
 
-            select.select.bares-filters_select(disabled data-id='regioes')
-              option(value='regioes') - Bairro
-              option(data-cidade='ribeirao-preto' value='Centro') Centro
-              option(data-cidade='ribeirao-preto' value='jd-sao-luiz') Jardim São Luiz
-              option(data-cidade='ribeirao-preto' value='campos-elisios') Campos Elísios
-              option(data-cidade='ribeirao-preto' value='city-ribeirao') City Ribeirão
-              option(data-cidade='ribeirao-preto' value='jd-sumare') Jardim Sumaré
-              option(data-cidade='sao-paulo' value='itaim-bibi') Itaim Bibi
-              option(data-cidade='sao-paulo' value='campo-belo') Campo Belo
-              option(data-cidade='sao-paulo' value='vila-isolina-mazzei') Vila Isolina Mazzei
-              option(data-cidade='sao-paulo' value='tatuape') Tatuapé
-              option(data-cidade='sao-paulo' value='Santana') Santana
-              option(data-cidade='sao-paulo' value='moema') Moema
-              option(data-cidade='sao-paulo' value='vila-mariana') Vila Mariana
-              option(data-cidade='recife' value='boa-viagem') Boa Viagem
-              option(data-cidade='recife' value='espinheiro') Espinheiro
-              option(data-cidade='recife' value='tamarineira') Tamarineira
-              option(data-cidade='olinda' value='bairro-novo') Bairro Novo
-              option(data-cidade='salvador' value='rio-vermelho') Rio Vermelho
-              option(data-cidade='belo-horizonte' value='savassi') Savassi
-              option(data-cidade='belo-horizonte' value='sion') Sion
-              option(data-cidade='belo-horizonte' value='lourdes') Lourdes
-              option(data-cidade='belo-horizonte' value='sao-francisco') São Francisco
-              option(data-cidade='belo-horizonte' value='padre-eustaquio') Padre Eustáquio
-              option(data-cidade='fortaleza' value='varjota') Varjota
-              option(data-cidade='fortaleza' value='parquelandia') Parquelândia
-              option(data-cidade='fortaleza' value='aldeota') Aldeota
-              option(data-cidade='fortaleza' value='cambeba') Cambeba
-              option(data-cidade='fortaleza' value='meireles') Meireles
-              option(data-cidade='curitiba' value='agua-verde') Água Verde
-              option(data-cidade='curitiba' value='boqueirao') Boqueirão
-              option(data-cidade='curitiba' value='alto-da-xv') Alto da XV
-              option(data-cidade='curitiba' value='centro') Centro
-              option(data-cidade='brasilia' value='asa-norte') Asa Norte
-              option(data-cidade='brasilia' value='aguas-claras') Águas Claras
-              option(data-cidade='brasilia' value='cruzeiro') Cruzeiro
-              option(data-cidade='brasilia' value='comercio-local-sul') Comércio Local Sul
-              option(data-cidade='campinas' value='castelo') Castelo
-              option(data-cidade='campinas' value='barao-geraldo') Barão Geraldo
-              option(data-cidade='campinas' value='cambui') Cambuí
-              option(data-cidade='floripa' value='coqueiros') Coqueiros
-              option(data-cidade='floripa' value='centro') Centro
-              option(data-cidade='floripa' value='itaguacu') Itaguaçu
-              option(data-cidade='porto-alegre' value='cidade-baixa') Cidade Baixa
-              option(data-cidade='porto-alegre' value='bom-fim') Bom Fim
-              option(data-cidade='porto-alegre' value='Farroupilha') Farroupilha
-              option(data-cidade='rio-de-janeiro' value='Centro') Centro
-              option(data-cidade='rio-de-janeiro' value='leblon') Leblon
-              option(data-cidade='rio-de-janeiro' value='recreio') Recreio
-              option(data-cidade='rio-de-janeiro' value='copacabana') Copacabana
-              option(data-cidade='rio-de-janeiro' value='lapa') Lapa
-              option(data-cidade='rio-de-janeiro' value='recreio-dos-bandeirantes') Recreio dos Bandeirantes
-              option(data-cidade='rio-de-janeiro' value='barra-da-tijuca') Barra da Tijuca
-              option(data-cidade='rio-de-janeiro' value='niteroi') Niterói
-              option(data-cidade='sao-bernardo-do-campo' value='jardim-do-mar') Jardim do Mar
+            //- select.select.bares-filters_select(disabled data-id='regioes')
+            //-   option(value='regioes') - Bairro
+            //-   option(data-cidade='ribeirao-preto' value='Centro') Centro
+            //-   option(data-cidade='ribeirao-preto' value='jd-sao-luiz') Jardim São Luiz
+            //-   option(data-cidade='ribeirao-preto' value='campos-elisios') Campos Elísios
+            //-   option(data-cidade='ribeirao-preto' value='city-ribeirao') City Ribeirão
+            //-   option(data-cidade='ribeirao-preto' value='jd-sumare') Jardim Sumaré
+            //-   option(data-cidade='sao-paulo' value='itaim-bibi') Itaim Bibi
+            //-   option(data-cidade='sao-paulo' value='campo-belo') Campo Belo
+            //-   option(data-cidade='sao-paulo' value='vila-isolina-mazzei') Vila Isolina Mazzei
+            //-   option(data-cidade='sao-paulo' value='tatuape') Tatuapé
+            //-   option(data-cidade='sao-paulo' value='Santana') Santana
+            //-   option(data-cidade='sao-paulo' value='moema') Moema
+            //-   option(data-cidade='sao-paulo' value='vila-mariana') Vila Mariana
+            //-   option(data-cidade='recife' value='boa-viagem') Boa Viagem
+            //-   option(data-cidade='recife' value='espinheiro') Espinheiro
+            //-   option(data-cidade='recife' value='tamarineira') Tamarineira
+            //-   option(data-cidade='olinda' value='bairro-novo') Bairro Novo
+            //-   option(data-cidade='salvador' value='rio-vermelho') Rio Vermelho
+            //-   option(data-cidade='belo-horizonte' value='savassi') Savassi
+            //-   option(data-cidade='belo-horizonte' value='sion') Sion
+            //-   option(data-cidade='belo-horizonte' value='lourdes') Lourdes
+            //-   option(data-cidade='belo-horizonte' value='sao-francisco') São Francisco
+            //-   option(data-cidade='belo-horizonte' value='padre-eustaquio') Padre Eustáquio
+            //-   option(data-cidade='fortaleza' value='varjota') Varjota
+            //-   option(data-cidade='fortaleza' value='parquelandia') Parquelândia
+            //-   option(data-cidade='fortaleza' value='aldeota') Aldeota
+            //-   option(data-cidade='fortaleza' value='cambeba') Cambeba
+            //-   option(data-cidade='fortaleza' value='meireles') Meireles
+            //-   option(data-cidade='curitiba' value='agua-verde') Água Verde
+            //-   option(data-cidade='curitiba' value='boqueirao') Boqueirão
+            //-   option(data-cidade='curitiba' value='alto-da-xv') Alto da XV
+            //-   option(data-cidade='curitiba' value='centro') Centro
+            //-   option(data-cidade='brasilia' value='asa-norte') Asa Norte
+            //-   option(data-cidade='brasilia' value='aguas-claras') Águas Claras
+            //-   option(data-cidade='brasilia' value='cruzeiro') Cruzeiro
+            //-   option(data-cidade='brasilia' value='comercio-local-sul') Comércio Local Sul
+            //-   option(data-cidade='campinas' value='castelo') Castelo
+            //-   option(data-cidade='campinas' value='barao-geraldo') Barão Geraldo
+            //-   option(data-cidade='campinas' value='cambui') Cambuí
+            //-   option(data-cidade='floripa' value='coqueiros') Coqueiros
+            //-   option(data-cidade='floripa' value='centro') Centro
+            //-   option(data-cidade='floripa' value='itaguacu') Itaguaçu
+            //-   option(data-cidade='porto-alegre' value='cidade-baixa') Cidade Baixa
+            //-   option(data-cidade='porto-alegre' value='bom-fim') Bom Fim
+            //-   option(data-cidade='porto-alegre' value='Farroupilha') Farroupilha
+            //-   option(data-cidade='rio-de-janeiro' value='Centro') Centro
+            //-   option(data-cidade='rio-de-janeiro' value='leblon') Leblon
+            //-   option(data-cidade='rio-de-janeiro' value='recreio') Recreio
+            //-   option(data-cidade='rio-de-janeiro' value='copacabana') Copacabana
+            //-   option(data-cidade='rio-de-janeiro' value='lapa') Lapa
+            //-   option(data-cidade='rio-de-janeiro' value='recreio-dos-bandeirantes') Recreio dos Bandeirantes
+            //-   option(data-cidade='rio-de-janeiro' value='barra-da-tijuca') Barra da Tijuca
+            //-   option(data-cidade='rio-de-janeiro' value='niteroi') Niterói
+            //-   option(data-cidade='sao-bernardo-do-campo' value='jardim-do-mar') Jardim do Mar
 
           .bares-content
             ul.bares-list

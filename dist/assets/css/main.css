@@ -608,11 +608,11 @@ a {
   -webkit-align-items: center;
   -moz-align-items: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  -webkit-justify-content: space-between;
-  -moz-justify-content: space-between;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
   margin: 2rem auto;
   text-align: center; }
   @media (max-width: 50rem) {

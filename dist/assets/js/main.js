@@ -6,13 +6,13 @@
   var district = doc.querySelector('[data-id="regioes"]');
 
   if (win.location.pathname === '/bares.html') {
-    state.addEventListener('change', barFilter, 'false');
-    state.addEventListener('change', disableSiblings, 'false');
-    state.addEventListener('change', removeCity, 'false');
+    // state.addEventListener('change', barFilter, 'false');
+    // state.addEventListener('change', disableSiblings, 'false');
+    // state.addEventListener('change', removeCity, 'false');
     city.addEventListener('change', barFilter, 'false');
     city.addEventListener('change', disableSiblings, 'false');
     city.addEventListener('change', removeCity, 'false');
-    district.addEventListener('change', barFilter, 'false');
+    // district.addEventListener('change', barFilter, 'false');
   }
 
   function barFilter() {
