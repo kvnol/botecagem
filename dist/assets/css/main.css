@@ -467,13 +467,24 @@ body {
 
 body.home {
   background-image: url(/assets/img/bg-home.jpg);
-  background-position: center center; }
+  background-position: center center;
+  background-size: cover; }
   @media (max-width: 1024px) {
     body.home {
       background-image: url(/assets/img/bg-home--1024.jpg); } }
   @media (max-width: 580px) {
     body.home {
-      background-image: url(/assets/img/bg-home--580.jpg); } }
+      background-image: url(/assets/img/bg-home--580.jpg);
+      background-size: contain; } }
+  @media (max-width: 580px) and (max-height: 640px) {
+    body.home {
+      background-position: center 15.5rem; } }
+  @media (max-width: 580px) and (max-height: 600px) {
+    body.home {
+      background-position: center 13rem; } }
+  @media (max-width: 580px) and (max-height: 570px) {
+    body.home {
+      background-position: center 11.5rem; } }
 
 a {
   text-decoration: none; }
