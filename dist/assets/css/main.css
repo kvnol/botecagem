@@ -468,6 +468,12 @@ body {
 body.home {
   background-image: url(/assets/img/bg-home.jpg);
   background-position: center center; }
+  @media (max-width: 1024px) {
+    body.home {
+      background-image: url(/assets/img/bg-home--1024.jpg); } }
+  @media (max-width: 580px) {
+    body.home {
+      background-image: url(/assets/img/bg-home--580.jpg); } }
 
 a {
   text-decoration: none; }
