@@ -57,6 +57,16 @@
 (function(win, doc) {
   'use strict';
 
+  var button = doc.querySelector('[data-id="censored-yes"]');
+  var popup = doc.querySelector('[data-id="censored"]');
+  
+  button.addEventListener('click', function() {
+    return popup.style.display = 'none';
+  }, 'false');
+})(window, document);
+(function(win, doc) {
+  'use strict';
+
   function currentPage() {
     var menuItem = document.querySelectorAll('.header-menu_item'); 
     Array.prototype.forEach.call(menuItem, function(item, index) {

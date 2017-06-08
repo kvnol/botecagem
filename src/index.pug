@@ -23,6 +23,14 @@ html(lang='pt-br')
 
 
   body.home
+    .home-censored(data-id='censored')
+      .home-censored-container
+        img.home-censored_logo(src='/assets/img/bg-censored_botecagem.png' alt='Botecagem')
+        p.home-censored_text Você tem mais de 18 anos?
+        .home-censored_options
+          a.button(data-id='censored-yes') Sim
+          a.button(href='http://www.ambev.com.br/consumo-responsavel/' data-id='censored-yes') Não
+
     include includes/header
 
     script(src='/assets/js/main.js')

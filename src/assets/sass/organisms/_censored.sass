@@ -1,0 +1,36 @@
+.home-censored
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  z-index: 9
+  @extend %flexbox
+  +justify-content(center)
+  background:
+    color: #000
+    image: url(/assets/img/bg-censored.jpg)
+    position: center center
+    repeat: no-repeat
+    size: cover
+
+.home-censored-container
+  max-width: 46.5rem
+  width: 80%
+  margin-top: 3rem
+  text-align: center
+
+.home-censored_logo
+  width: 100%
+
+.home-censored_text
+  font-size: 2rem
+
+.home-censored_options
+  @extend %flexbox
+  +align-items(center)
+  +justify-content(space-between)
+  width: 17.8125rem
+  margin: 0 auto
+  font-size: 2rem
+  text-transform: uppercase
