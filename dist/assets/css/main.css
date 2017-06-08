@@ -438,7 +438,7 @@ template {
   src: url("/assets/fonts/iCielBrushUp.eot");
   src: url("/assets/fonts/iCielBrushUp.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/iCielBrushUp.woff2") format("woff2"), url("/assets/fonts/iCielBrushUp.woff") format("woff"), url("/assets/fonts/iCielBrushUp.ttf") format("truetype"), url("/assets/fonts/iCielBrushUp.svg#iCielBrushUp") format("svg"); }
 
-.home-censored, .home-censored_options, .bares-filters, .bares-list, .bares-item_caption, .bares-item_article, .bares-item_footer {
+.censored, .censored_options, .bares-filters, .bares-list, .bares-item_caption, .bares-item_article, .bares-item_footer {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-flex;
@@ -562,7 +562,7 @@ a {
       margin-top: 0;
       background-color: #000; } }
 
-.home-censored {
+.censored {
   position: absolute;
   top: 0;
   left: 0;
@@ -580,19 +580,19 @@ a {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.home-censored-container {
+.censored-container {
   max-width: 46.5rem;
   width: 80%;
   margin-top: 3rem;
   text-align: center; }
 
-.home-censored_logo {
+.censored_logo {
   width: 100%; }
 
-.home-censored_text {
+.censored_text {
   font-size: 2rem; }
 
-.home-censored_options {
+.censored_options {
   -webkit-box-align: center;
   -ms-flex-align: center;
   -webkit-align-items: center;

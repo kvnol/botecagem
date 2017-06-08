@@ -22,6 +22,13 @@ html(lang='pt-br')
       })(window,document,'script','dataLayer','GTM-TM7D5J9');
 
   body.saiba-mais
+    .censored(data-id='censored')
+      .censored-container
+        img.censored_logo(src='/assets/img/bg-censored_botecagem.png' alt='Botecagem')
+        p.censored_text Você tem mais de 18 anos?
+        .censored_options
+          a.button(data-id='censored-yes') Sim
+          a.button(href='http://www.ambev.com.br/consumo-responsavel/' data-id='censored-yes') Não
     include includes/header
 
     main.main
@@ -57,6 +64,7 @@ html(lang='pt-br')
             p.evento2016_text Com música ao vivo e DJs, das 13h às 22h, o público pôde se deliciar com os petiscos vendidos em porções diferenciadas de disputados bares, como Brexó Bar & Cozinha, Filial, Vaca Véia, Galinheiro Grill, Gràcia Bar, Zé Gordo, Dedo de Moça e Blá Bar, que foram acompanhados das cervejas geladas Original, Serramalte e Adriática.
             p.evento2016_text A ideia do Botecagem surgiu para homenagear a tradição de reunir turmas de amigos em torno de uma mesa, com cerveja gelada e deliciosos petiscos e promete, com edições anuais, reviver esses momentos dentro e fora dos bares, fomentando novas receitas e atraindo ainda mais o público para essa nova experiência. 
 
+    script(src='/assets/vendor/cookie.min.js')
     script(src='/assets/js/main.js')
     noscript
       iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-TM7D5J9', height='0', width='0', style='display:none;visibility:hidden')

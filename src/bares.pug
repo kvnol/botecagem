@@ -8,6 +8,13 @@ html(lang='pt-br')
     link(href='/assets/css/main.css', rel='stylesheet')
 
   body.bares
+    .censored(data-id='censored')
+      .censored-container
+        img.censored_logo(src='/assets/img/bg-censored_botecagem.png' alt='Botecagem')
+        p.censored_text Você tem mais de 18 anos?
+        .censored_options
+          a.button(data-id='censored-yes') Sim
+          a.button(href='http://www.ambev.com.br/consumo-responsavel/' data-id='censored-yes') Não
     include includes/header
 
     main.main
@@ -1537,7 +1544,8 @@ html(lang='pt-br')
           dataLayer.push({'event': 'clickMapa', 'mapaBar': barName});
         });
       });
-
+    
+    script(src='/assets/vendor/cookie.min.js')
     script(src='/assets/js/main.js')
     noscript
       iframe(src='https://www.googletagmanager.com/ns.html?id=GTM-TM7D5J9', height='0', width='0', style='display:none;visibility:hidden')
