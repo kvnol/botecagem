@@ -462,7 +462,7 @@ body {
   color: #fff;
   background-attachment: fixed;
   background-image: url(/assets/img/bg-pages.jpg);
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover; }
 
 a {
@@ -636,9 +636,9 @@ a {
     @media (max-height: 43.125rem) {
       .home-logo img {
         width: 26rem; } }
-    @media (max-height: 38.125rem) {
+    @media (max-width: 29.375rem) {
       .home-logo img {
-        width: 20rem; } }
+        width: 95% !important; } }
 
 .home-content {
   -webkit-box-align: center;
@@ -672,9 +672,9 @@ a {
   .home-garrafas {
     width: 26rem; } }
 
-@media (max-height: 38.125rem) {
+@media (max-width: 29.375rem) {
   .home-garrafas {
-    width: 20rem; } }
+    width: 95% !important; } }
 
 .home-maisPedida {
   position: absolute;
@@ -694,6 +694,19 @@ a {
       right: inherit;
       bottom: inherit;
       margin-bottom: 3rem; } }
+  @media (max-width: 29.375rem) {
+    .home-maisPedida {
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      align-items: center;
+      -webkit-box-direction: normal;
+      -webkit-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column; } }
   @media (max-height: 38.125rem) {
     .home-maisPedida {
       margin-bottom: 1.5rem; } }

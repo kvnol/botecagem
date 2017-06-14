@@ -32,8 +32,9 @@
     @media (max-height: 43.125rem)
       width: 26rem
 
-    @media (max-height: 38.125rem)
-      width: 20rem
+    @media (max-width: 29.375rem)
+      width: 95% !important
+
 
 .home-content
   @extend %flexbox
@@ -54,8 +55,9 @@
   @media (max-height: 43.125rem)
     width: 26rem
 
-  @media (max-height: 38.125rem)
-    width: 20rem
+  @media (max-width: 29.375rem)
+    width: 95% !important
+
 
 .home-maisPedida
   position: absolute
@@ -72,6 +74,10 @@
     right: inherit
     bottom: inherit
     margin-bottom: 3rem
+
+  @media (max-width: 29.375rem)
+    +align-items(center)
+    +flex-direction(column)
 
   @media (max-height: 38.125rem)
     margin-bottom: 1.5rem
