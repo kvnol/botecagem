@@ -40,7 +40,13 @@ html(lang='pt-br')
         section.fotos
           header.fotos-header
             h1.title.fotos-title Fotos
-            h2.fotos-subtitle Em breve!
+
+        section.fotos-gallery
+          - var n = 1;
+            while n <= 26
+              a.fotos-gallery_item(data-fancybox='gallery' href='/assets/img/fotos/big/'+(n)+'.png')
+                img.fotos-gallery_image(src='/assets/img/fotos/small/'+(n++)+'.png' alt='Evento Botecagem 2017')
+
 
     script(src='/assets/vendor/cookie.min.js')
     script(src='/assets/js/main.js')

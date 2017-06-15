@@ -438,7 +438,7 @@ template {
   src: url("/assets/fonts/iCielBrushUp.eot");
   src: url("/assets/fonts/iCielBrushUp.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/iCielBrushUp.woff2") format("woff2"), url("/assets/fonts/iCielBrushUp.woff") format("woff"), url("/assets/fonts/iCielBrushUp.ttf") format("truetype"), url("/assets/fonts/iCielBrushUp.svg#iCielBrushUp") format("svg"); }
 
-.censored, .censored_options, .home-content, .home-maisPedida, .bares-filters, .bares-list, .bares-item_caption, .bares-item_article, .bares-item_footer {
+.censored, .censored_options, .home-content, .home-maisPedida, .bares-filters, .bares-list, .bares-item_caption, .bares-item_article, .bares-item_footer, .fotos-gallery {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-flex;
@@ -986,6 +986,16 @@ a {
   margin: 0;
   font-size: 1.4375rem; }
 
+.fotos-gallery {
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
+  -moz-justify-content: space-around;
+  justify-content: space-around; }
+
 .fotos-gallery_row {
   text-align: center; }
 
@@ -994,6 +1004,13 @@ a {
   margin: 0 .9375rem; }
 
 .fotos-gallery_item {
+  position: relative;
+  overflow: hidden;
+  width: 255px;
+  height: 191px; }
+
+.fotos-gallery_image {
+  position: absolute;
   display: block;
   margin: 1.875rem auto; }
 
